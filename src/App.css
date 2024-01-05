@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Roboto Mono", monospace;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: rgba(28, 13, 11, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+  background: url(../public/LawConnectIndia-logos.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.linkss {
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  transition: all 1s;
+  padding: 10px;
+}
+
+.linkss:hover {
+  border: 2px solid white;
+  border-radius: 40px;
+}
+
+.linkss:active {
+  background: white;
+  color: rgba(28, 13, 11, 1);
+}
+.btn-logout {
+  background: rgba(34, 158, 249, 1);
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+/* Now is css for Homepage */
+
+.homepage {
+  width: 100vw;
+  height: 100vh;
+  background: url(../public/Home_bgimg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigHeading {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  margin-top: 10%;
+}
+
+.smallHeading {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.forButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  padding: 30px;
+}
+
+.btnhomepage {
+  width: 200px;
+  height: 80px;
+  background: rgba(34, 158, 249, 1);
+  border: 4px solid white;
+  border-radius: 15px;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.btnhomepage1 {
+  width: 300px;
+  height: 80px;
+  background: rgba(34, 158, 249, 1);
+  border: 4px solid white;
+  border-radius: 15px;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+/* now css for aboutus start from here */
+.aboutus {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(225, 219, 219, 1);
+}
+.headingaboutus {
+  text-align: center;
+  font-size: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  width: 700px;
+  height: 550px;
+  background: rgba(241, 234, 234, 1);
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(97, 97, 97);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.box1 {
+  width: 700px;
+  height: 550px;
+  background: url(../public/Section2_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(97, 97, 97);
+  margin: 20px;
+}
+
+.boxmatter {
+  width: 640px;
+  margin-left: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.boxmatter h3 {
+  font-size: 30px;
+}
+
+.servicesss {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(189, 189, 189, 1);
+}
+
+.headingServices {
+  margin-top: 1%;
+  text-align: center;
+}
+
+.headingServices h3 {
+  font-size: 60px;
+}
+
+.headingServices p {
+  margin-top: 1%;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  font-size: 36px;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.servicesimg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.serviceimg1,
+.serviceimg2 {
+  margin-top: 4%;
+  width: 625px;
+  height: 400px;
+  background: url(../public/s3img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.serviceimg2 {
+  background: url(../public/s3img2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.serviceimg1 h4,
+.serviceimg2 h4 {
+  margin: 20px;
+  color: white;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.serviceimg1 button,
+.serviceimg2 button {
+  width: 200px;
+  height: 80px;
+  background: transparent;
+  border: 4px solid white;
+  border-radius: 15px;
+  margin: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.serviceimg1 button:hover,
+.serviceimg2 button:hover {
+  color: rgb(103, 48, 14);
+  background: white;
+}
+
+/* now css for collab start from here */
+
+.collab {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(132, 129, 129, 1);
+}
+
+.collabcontainer {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.collabbox {
+  width: 300px;
+  height: 400px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 30px;
+  box-shadow: -10px 10px 5px rgb(97, 97, 97);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.5s;
+  text-align: center;
+  font-size: 24px;
+}
+
+.collabbox:hover {
+  width: 400px;
+  height: 500px;
+  .collabimg1 {
+    height: 300px;
+  }
+  .collabimg2 {
+    height: 300px;
+  }
+  .collabimg3 {
+    height: 300px;
+  }
+}
+
+.collabimg1 {
+  width: 100%;
+  height: 176px;
+  background: url(../public/legalaidsclincs.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.5s;
+}
+
+.collabimg2 {
+  width: 100%;
+  height: 176px;
+  background: url(../public/bar_association_india.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.5s;
+}
+
+.collabimg3 {
+  width: 100%;
+  height: 176px;
+  background: url(../public/courts_img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: all 0.5s;
+}
+
+.collabheading {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+.collabbtn {
+  width: 461px;
+  height: 80px;
+  background: rgba(34, 158, 249, 1);
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+
+.collabbtn:active {
+  background: white;
+  color: rgba(34, 158, 249, 1);
+}
+.btncontainer {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
