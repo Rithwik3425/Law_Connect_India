@@ -1,0 +1,16 @@
+{
+  "name": "lawconnect",
+  "version": "1.0.0",
+  "description": "a law service website to connect lawyers and clients",
+  "main": "index.js",
+  "scripts": {   
+     "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+  "author": "Nagaraj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
