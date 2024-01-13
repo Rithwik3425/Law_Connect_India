@@ -1,0 +1,83 @@
+{
+    "name": "Wills/Trusts",
+    "lawyers": [
+        {
+            "name": "Advocate Rahul Desai",
+            "officeLocation": "Bandra, Mumbai",
+            "legalExperience": "12 years",
+            "practiceArea": [
+                "Anticipatory Bail",
+                "Cheque Bounce",
+                "Child Custody",
+                "Court Marriage",
+                "Divorce",
+                "Domestic Violence",
+                "Family",
+                "High Court",
+                "Recovery",
+                "Succession Certificate",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi",
+                "Gujarati",
+                "Kannada",
+                "Marathi"
+            ],
+            "rating": 4.8
+        },
+        {
+            "name": "Advocate Preeti Shah",
+            "officeLocation": "Andheri, Mumbai",
+            "legalExperience": "10 years",
+            "practiceArea": [
+                "Anticipatory Bail",
+                "Cheque Bounce",
+                "Child Custody",
+                "Court Marriage",
+                "Divorce",
+                "Domestic Violence",
+                "Family",
+                "High Court",
+                "Recovery",
+                "Succession Certificate",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi",
+                "Gujarati",
+                "Kannada",
+                "Marathi"
+            ],
+            "rating": 4.9
+        },
+        {
+            "name": "Advocate Harish Patel",
+            "officeLocation": "Colaba, Mumbai",
+            "legalExperience": "13 years",
+            "practiceArea": [
+                "Anticipatory Bail",
+                "Cheque Bounce",
+                "Child Custody",
+                "Court Marriage",
+                "Divorce",
+                "Domestic Violence",
+                "Family",
+                "High Court",
+                "Recovery",
+                "Succession Certificate",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi",
+                "Gujarati",
+                "Kannada",
+                "Marathi"
+            ],
+            "rating": 4.7
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "name": "Arbitration",
+    "lawyers": [
+        {
+            "name": "Advocate Sameer Deshmukh",
+            "officeLocation": "Ram Nagar, Nagpur",
+            "legalExperience": "16 years",
+            "practiceArea": [
+                "Arbitration",
+                "Breach of Contract",
+                "Cheque Bounce",
+                "Child Custody",
+                "Civil",
+                "Consumer Court",
+                "Court Marriage",
+                "Criminal",
+                "Divorce",
+                "Documentation",
+                "Domestic Violence",
+                "Family",
+                "GST",
+                "High Court",
+                "Landlord/Tenant",
+                "Motor Accident",
+                "Property",
+                "Trademark & Copyright",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi",
+                "Marathi"
+            ],
+            "rating": 4.8
+        },
+        {
+            "name": "Advocate Snehal Joshi",
+            "officeLocation": "Dhantoli, Nagpur",
+            "legalExperience": "18 years",
+            "practiceArea": [
+                "Arbitration",
+                "Breach of Contract",
+                "Cheque Bounce",
+                "Child Custody",
+                "Civil",
+                "Consumer Court",
+                "Court Marriage",
+                "Criminal",
+                "Divorce",
+                "Documentation",
+                "Domestic Violence",
+                "Family",
+                "GST",
+                "High Court",
+                "Landlord/Tenant",
+                "Motor Accident",
+                "Property",
+                "Trademark & Copyright",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi",
+                "Marathi"
+            ],
+            "rating": 4.7
+        },
+        {
+            "name": "Advocate Aniket Desai",
+            "officeLocation": "Shivaji Nagar, Nagpur",
+            "legalExperience": "17 years",
+            "practiceArea": [
+                "Arbitration",
+                "Breach of Contract",
+                "Cheque Bounce",
+                "Child Custody",
+                "Civil",
+                "Consumer Court",
+                "Court Marriage",
+                "Criminal",
+                "Divorce",
+                "Documentation",
+                "Domestic Violence",
+                "Family",
+                "GST",
+                "High Court",
+                "Landlord/Tenant",
+                "Motor Accident",
+                "Property",
+                "Trademark & Copyright",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi",
+                "Marathi"
+            ],
+            "rating": 4.9
+        }
+    ]
+}

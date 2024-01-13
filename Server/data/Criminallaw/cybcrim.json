@@ -1,0 +1,101 @@
+{
+    "name": "Cyber Crime",
+    "lawyers": [
+        {
+            "name": "Advocate Meera Kapoor",
+            "officeLocation": "Sector-12, Dwarka, Delhi",
+            "legalExperience": "22 years",
+            "practiceArea": [
+                "Anticipatory Bail",
+                "Arbitration",
+                "Bankruptcy / Insolvency",
+                "Breach of Contract",
+                "Consumer Court",
+                "Corporate",
+                "Criminal",
+                "Customs & Central Excise",
+                "Cyber Crime",
+                "Divorce",
+                "Domestic Violence",
+                "High Court",
+                "Media and Entertainment",
+                "NCLT",
+                "Property",
+                "Recovery",
+                "RERA",
+                "Succession Certificate",
+                "Supreme Court",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi"
+            ],
+            "rating": 4.7
+        },
+        {
+            "name": "Advocate Rahul Sharma",
+            "officeLocation": "Sector-6, Dwarka, Delhi",
+            "legalExperience": "23 years",
+            "practiceArea": [
+                "Anticipatory Bail",
+                "Arbitration",
+                "Bankruptcy / Insolvency",
+                "Breach of Contract",
+                "Consumer Court",
+                "Corporate",
+                "Criminal",
+                "Customs & Central Excise",
+                "Cyber Crime",
+                "Divorce",
+                "Domestic Violence",
+                "High Court",
+                "Media and Entertainment",
+                "NCLT",
+                "Property",
+                "Recovery",
+                "RERA",
+                "Succession Certificate",
+                "Supreme Court",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi"
+            ],
+            "rating": 4.9
+        },
+        {
+            "name": "Advocate Anjali Verma",
+            "officeLocation": "Sector-10, Dwarka, Delhi",
+            "legalExperience": "25 years",
+            "practiceArea": [
+                "Anticipatory Bail",
+                "Arbitration",
+                "Bankruptcy / Insolvency",
+                "Breach of Contract",
+                "Consumer Court",
+                "Corporate",
+                "Criminal",
+                "Customs & Central Excise",
+                "Cyber Crime",
+                "Divorce",
+                "Domestic Violence",
+                "High Court",
+                "Media and Entertainment",
+                "NCLT",
+                "Property",
+                "Recovery",
+                "RERA",
+                "Succession Certificate",
+                "Supreme Court",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi"
+            ],
+            "rating": 4.8
+        }
+    ]
+}

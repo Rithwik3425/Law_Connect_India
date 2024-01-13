@@ -1,0 +1,98 @@
+{
+    "name": "Documentation",
+    "lawyers": [
+        {
+            "name": "Advocate Neha Sharma",
+            "officeLocation": "Green Park, Delhi",
+            "legalExperience": "12 years",
+            "practiceArea": [
+                "Arbitration",
+                "Banking / Finance",
+                "Breach of Contract",
+                "Cheque Bounce",
+                "Consumer Court",
+                "Corporate",
+                "Criminal",
+                "Cyber Crime",
+                "Documentation",
+                "High Court",
+                "Insurance",
+                "Medical Negligence",
+                "NCLT",
+                "Property",
+                "Recovery",
+                "RERA",
+                "Startup",
+                "Supreme Court",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi"
+            ],
+            "rating": 4.7
+        },
+        {
+            "name": "Advocate Rohit Kapoor",
+            "officeLocation": "Saket, Delhi",
+            "legalExperience": "11 years",
+            "practiceArea": [
+                "Arbitration",
+                "Banking / Finance",
+                "Breach of Contract",
+                "Cheque Bounce",
+                "Consumer Court",
+                "Corporate",
+                "Criminal",
+                "Cyber Crime",
+                "Documentation",
+                "High Court",
+                "Insurance",
+                "Medical Negligence",
+                "NCLT",
+                "Property",
+                "Recovery",
+                "RERA",
+                "Startup",
+                "Supreme Court",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi"
+            ],
+            "rating": 4.9
+        },
+        {
+            "name": "Advocate Sneha Verma",
+            "officeLocation": "Lajpat Nagar, Delhi",
+            "legalExperience": "9 years",
+            "practiceArea": [
+                "Arbitration",
+                "Banking / Finance",
+                "Breach of Contract",
+                "Cheque Bounce",
+                "Consumer Court",
+                "Corporate",
+                "Criminal",
+                "Cyber Crime",
+                "Documentation",
+                "High Court",
+                "Insurance",
+                "Medical Negligence",
+                "NCLT",
+                "Property",
+                "Recovery",
+                "RERA",
+                "Startup",
+                "Supreme Court",
+                "Wills / Trusts"
+            ],
+            "languages": [
+                "English",
+                "Hindi"
+            ],
+            "rating": 4.8
+        }
+    ]
+}
