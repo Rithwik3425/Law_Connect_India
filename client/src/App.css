@@ -8,14 +8,15 @@
 }
 
 .navbar {
-  width:100vw;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
   height: 100px;
   background: rgba(28, 13, 11, 1);
   display: flex;
   justify-content: space-between;
   align-items: center;
   overflow-x: hidden;
-  
 }
 
 .logo {
@@ -35,6 +36,8 @@
   margin-left: 20px;
 }
 .linkss {
+  border: none;
+  background: transparent;
   font-size: 25px;
   font-weight: 600;
   text-decoration: none;
@@ -58,7 +61,7 @@
   border: none;
   border-radius: 15px;
   padding: 8px;
-  margin:5px;
+  margin: 5px;
 }
 
 /* Now is css for Homepage */
@@ -68,13 +71,14 @@
   background: url(./assets/Images/Home_bgimg.jpg);
   background-size: cover;
   overflow-x: hidden;
-
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .bigHeading {
+  margin-top: 15%;
   text-align: center;
   font-size: 60px;
   color: white;

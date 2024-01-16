@@ -1,7 +1,9 @@
 function Collab_Section() {
   return (
     <>
-      <div className="collabheading">Our Collaborators</div>
+      <div className="collabheading" name="collabheading">
+        Our Collaborators
+      </div>
       <div className="collabcontainer">
         <div className="collabbox">
           <div className="collabimg1"></div>

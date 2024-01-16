@@ -1,7 +1,9 @@
 function AboutUs_Section() {
   return (
     <>
-      <h1 className="headingaboutus">About us</h1>
+      <h1 className="headingaboutus" id="headingaboutus" name="headingaboutus">
+        About us
+      </h1>
       <div className="container">
         <div className="box">
           <div className="boxmatter">
