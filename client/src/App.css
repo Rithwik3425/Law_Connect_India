@@ -4,15 +4,18 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto Mono", monospace;
+  overflow-x: hidden;
 }
 
 .navbar {
-  width: 100%;
+  width:100vw;
   height: 100px;
   background: rgba(28, 13, 11, 1);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  overflow-x: hidden;
+  
 }
 
 .logo {
@@ -54,17 +57,18 @@
   background: rgba(34, 158, 249, 1);
   border: none;
   border-radius: 15px;
-  padding: 10px;
+  padding: 8px;
+  margin:5px;
 }
 
 /* Now is css for Homepage */
 
 .homepage {
-  width: 100vw;
   height: 100vh;
   background: url(./assets/Images/Home_bgimg.jpg);
   background-size: cover;
-  background-position: center;
+  overflow-x: hidden;
+
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
@@ -74,7 +78,6 @@
   text-align: center;
   font-size: 60px;
   color: white;
-  margin-top: 10%;
 }
 
 .smallHeading {
@@ -121,7 +124,6 @@
 
 /* now css for aboutus start from here */
 .aboutus {
-  width: 100vw;
   height: 100vh;
   background: rgba(225, 219, 219, 1);
 }
@@ -204,7 +206,7 @@
 
 .serviceimg1,
 .serviceimg2 {
-  margin-top: 4%;
+  margin: 5%;
   width: 625px;
   height: 400px;
   background: url(./assets/Images/s3img1.jpg);
@@ -257,9 +259,9 @@
 /* now css for collab start from here */
 
 .collab {
-  width: 100vw;
   height: 100vh;
   background: rgba(132, 129, 129, 1);
+  overflow-x: hidden;
 }
 
 .collabcontainer {
