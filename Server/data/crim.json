@@ -1,0 +1,77 @@
+[
+    {
+        "id": 0,
+        "name": "Advocate Priya Khanna",
+        "officeLocation": "Connaught Place, Delhi",
+        "legalExperience": "18 years",
+        "practiceArea": [
+            "Anticipatory Bail",
+            "Arbitration",
+            "Breach of Contract",
+            "Cheque Bounce",
+            "Civil",
+            "Criminal",
+            "High Court",
+            "Property",
+            "Recovery",
+            "Succession Certificate",
+            "Supreme Court"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": 1,
+        "name": "Advocate Rahul Mehta",
+        "officeLocation": "Rohini, Delhi",
+        "legalExperience": "23 years",
+        "practiceArea": [
+            "Anticipatory Bail",
+            "Arbitration",
+            "Breach of Contract",
+            "Cheque Bounce",
+            "Civil",
+            "Criminal",
+            "High Court",
+            "Property",
+            "Recovery",
+            "Succession Certificate",
+            "Supreme Court"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": 2,
+        "name": "Advocate Anika Verma",
+        "officeLocation": "Kalkaji, Delhi",
+        "legalExperience": "20 years",
+        "practiceArea": [
+            "Anticipatory Bail",
+            "Arbitration",
+            "Breach of Contract",
+            "Cheque Bounce",
+            "Civil",
+            "Criminal",
+            "High Court",
+            "Property",
+            "Recovery",
+            "Succession Certificate",
+            "Supreme Court"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi"
+        ],
+        "rating": 4.9
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "id": 0,
+        "name": "Advocate Arjun Sharma",
+        "officeLocation": "Sector 22-D, Chandigarh",
+        "legalExperience": "14 years",
+        "practiceArea": [
+            "Anticipatory Bail",
+            "Arbitration",
+            "Cheque Bounce",
+            "Child Custody",
+            "Civil",
+            "Consumer Court",
+            "Court Marriage",
+            "Criminal",
+            "Divorce",
+            "Documentation",
+            "Domestic Violence",
+            "Family",
+            "Insurance",
+            "Labour & Service",
+            "Landlord/Tenant",
+            "Motor Accident",
+            "Property",
+            "R.T.I",
+            "Recovery",
+            "Wills / Trusts"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi"
+        ],
+        "rating": 4.5
+    },
+    {
+        "id": 1,
+        "name": "Advocate Natasha Kapoor",
+        "officeLocation": "Sector 35-B, Chandigarh",
+        "legalExperience": "16 years",
+        "practiceArea": [
+            "Anticipatory Bail",
+            "Arbitration",
+            "Cheque Bounce",
+            "Child Custody",
+            "Civil",
+            "Consumer Court",
+            "Court Marriage",
+            "Criminal",
+            "Divorce",
+            "Documentation",
+            "Domestic Violence",
+            "Family",
+            "Insurance",
+            "Labour & Service",
+            "Landlord/Tenant",
+            "Motor Accident",
+            "Property",
+            "R.T.I",
+            "Recovery",
+            "Wills / Trusts"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": 2,
+        "name": "Advocate Vikas Malhotra",
+        "officeLocation": "Sector 15-A, Chandigarh",
+        "legalExperience": "15 years",
+        "practiceArea": [
+            "Anticipatory Bail",
+            "Arbitration",
+            "Cheque Bounce",
+            "Child Custody",
+            "Civil",
+            "Consumer Court",
+            "Court Marriage",
+            "Criminal",
+            "Divorce",
+            "Documentation",
+            "Domestic Violence",
+            "Family",
+            "Insurance",
+            "Labour & Service",
+            "Landlord/Tenant",
+            "Motor Accident",
+            "Property",
+            "R.T.I",
+            "Recovery",
+            "Wills / Trusts"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi"
+        ],
+        "rating": 4.4
+    }
+]

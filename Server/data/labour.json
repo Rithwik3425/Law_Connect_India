@@ -1,0 +1,65 @@
+[
+    {
+        "id": 0,
+        "name": "Advocate Vandana Singh",
+        "officeLocation": "Vasant Kunj, Delhi",
+        "legalExperience": "22 years",
+        "practiceArea": [
+            "Armed Forces Tribunal",
+            "Divorce",
+            "Domestic Violence",
+            "High Court",
+            "Labour & Service",
+            "R.T.I"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi",
+            "Urdu"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": 1,
+        "name": "Advocate Anil Kapoor",
+        "officeLocation": "Sector-10, Dwarka, Delhi",
+        "legalExperience": "25 years",
+        "practiceArea": [
+            "Armed Forces Tribunal",
+            "Divorce",
+            "Domestic Violence",
+            "High Court",
+            "Labour & Service",
+            "R.T.I"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi",
+            "Urdu"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": 2,
+        "name": "Advocate Priya Verma",
+        "officeLocation": "Connaught Place, Delhi",
+        "legalExperience": "23 years",
+        "practiceArea": [
+            "Armed Forces Tribunal",
+            "Divorce",
+            "Domestic Violence",
+            "High Court",
+            "Labour & Service",
+            "R.T.I"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Punjabi",
+            "Urdu"
+        ],
+        "rating": 4.8
+    }
+]

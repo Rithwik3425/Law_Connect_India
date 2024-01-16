@@ -1,0 +1,104 @@
+[
+    {
+        "id": 0,
+        "name": "Advocate Kavitha Reddy",
+        "officeLocation": "Jubilee Hills, Hyderabad",
+        "legalExperience": "25 years",
+        "practiceArea": [
+            "Arbitration",
+            "Banking / Finance",
+            "Cheque Bounce",
+            "Child Custody",
+            "Civil",
+            "Corporate",
+            "Criminal",
+            "Customs & Central Excise",
+            "Cyber Crime",
+            "Divorce",
+            "Family",
+            "Insurance",
+            "Medical Negligence",
+            "Motor Accident",
+            "Property",
+            "Recovery",
+            "Startup",
+            "Supreme Court",
+            "Trademark & Copyright",
+            "Wills / Trusts"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "rating": 4.8
+    },
+    {
+        "id": 1,
+        "name": "Advocate Vikram Sharma",
+        "officeLocation": "Ameerpet, Hyderabad",
+        "legalExperience": "27 years",
+        "practiceArea": [
+            "Arbitration",
+            "Banking / Finance",
+            "Cheque Bounce",
+            "Child Custody",
+            "Civil",
+            "Corporate",
+            "Criminal",
+            "Customs & Central Excise",
+            "Cyber Crime",
+            "Divorce",
+            "Family",
+            "Insurance",
+            "Medical Negligence",
+            "Motor Accident",
+            "Property",
+            "Recovery",
+            "Startup",
+            "Supreme Court",
+            "Trademark & Copyright",
+            "Wills / Trusts"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "rating": 4.9
+    },
+    {
+        "id": 2,
+        "name": "Advocate Ramesh Gupta",
+        "officeLocation": "Begumpet, Hyderabad",
+        "legalExperience": "26 years",
+        "practiceArea": [
+            "Arbitration",
+            "Banking / Finance",
+            "Cheque Bounce",
+            "Child Custody",
+            "Civil",
+            "Corporate",
+            "Criminal",
+            "Customs & Central Excise",
+            "Cyber Crime",
+            "Divorce",
+            "Family",
+            "Insurance",
+            "Medical Negligence",
+            "Motor Accident",
+            "Property",
+            "Recovery",
+            "Startup",
+            "Supreme Court",
+            "Trademark & Copyright",
+            "Wills / Trusts"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "rating": 4.7
+    }
+]

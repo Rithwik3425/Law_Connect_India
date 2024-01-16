@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "name": "Advocate Aishwarya Singhania",
+        "officeLocation": "Indiranagar, Bangalore",
+        "legalExperience": "13 years",
+        "practiceArea": [
+            "Arbitration",
+            "Banking / Finance",
+            "Cheque Bounce",
+            "Child Custody",
+            "Consumer Court",
+            "Corporate",
+            "Criminal",
+            "Divorce",
+            "Immigration",
+            "Landlord/Tenant"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Kannada"
+        ],
+        "rating": 4.7
+    },
+    {
+        "id": 1,
+        "name": "Advocate Vikram Reddy",
+        "officeLocation": "Koramangala, Bangalore",
+        "legalExperience": "9 years",
+        "practiceArea": [
+            "Bankruptcy / Insolvency",
+            "Civil",
+            "Court Marriage",
+            "Criminal",
+            "Family",
+            "Insurance",
+            "Property",
+            "R.T.I",
+            "Wills / Trusts"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Telugu"
+        ],
+        "rating": 4.6
+    },
+    {
+        "id": 2,
+        "name": "Advocate Meera Kapoor",
+        "officeLocation": "Malleswaram, Bangalore",
+        "legalExperience": "6 years",
+        "practiceArea": [
+            "Cheque Bounce",
+            "Consumer Court",
+            "Divorce",
+            "Family",
+            "High Court",
+            "Media and Entertainment",
+            "Medical Negligence",
+            "Recovery",
+            "Startup"
+        ],
+        "languages": [
+            "English",
+            "Hindi",
+            "Kannada"
+        ],
+        "rating": 4.5
+    }
+]

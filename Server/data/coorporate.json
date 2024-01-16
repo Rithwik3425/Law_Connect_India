@@ -1,0 +1,71 @@
+[
+    {
+        "id": 0,
+        "name": "Advocate Neha Kapoor",
+        "officeLocation": "Sector 14, Gurgaon",
+        "legalExperience": "11 years",
+        "practiceArea": [
+            "Anticipatory Bail",
+            "Breach of Contract",
+            "Cheque Bounce",
+            "Corporate",
+            "Court Marriage",
+            "Criminal",
+            "Divorce",
+            "Family",
+            "NCLT",
+            "RERA"
+        ],
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "rating": 4.3
+    },
+    {
+        "id": 1,
+        "name": "Advocate Rajat Singhania",
+        "officeLocation": "Sector 56, Gurgaon",
+        "legalExperience": "13 years",
+        "practiceArea": [
+            "Anticipatory Bail",
+            "Breach of Contract",
+            "Cheque Bounce",
+            "Corporate",
+            "Court Marriage",
+            "Criminal",
+            "Divorce",
+            "Family",
+            "NCLT",
+            "RERA"
+        ],
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "rating": 4.4
+    },
+    {
+        "id": 2,
+        "name": "Advocate Priya Sharma",
+        "officeLocation": "Sohna Road, Gurgaon",
+        "legalExperience": "12 years",
+        "practiceArea": [
+            "Anticipatory Bail",
+            "Breach of Contract",
+            "Cheque Bounce",
+            "Corporate",
+            "Court Marriage",
+            "Criminal",
+            "Divorce",
+            "Family",
+            "NCLT",
+            "RERA"
+        ],
+        "languages": [
+            "English",
+            "Hindi"
+        ],
+        "rating": 4.2
+    }
+]
