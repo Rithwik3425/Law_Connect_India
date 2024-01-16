@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -19,7 +18,7 @@
 .logo {
   width: 150px;
   height: 60px;
-  background: url(../public/LawConnectIndia-logos.jpeg);
+  background: url(./assets/Images/LawConnectIndia-logos.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,7 +62,7 @@
 .homepage {
   width: 100vw;
   height: 100vh;
-  background: url(../public/Home_bgimg.jpg);
+  background: url(./assets/Images/Home_bgimg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -153,7 +152,7 @@
 .box1 {
   width: 700px;
   height: 550px;
-  background: url(../public/Section2_img.jpg);
+  background: url(./assets/Images/Section2_img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -208,7 +207,7 @@
   margin-top: 4%;
   width: 625px;
   height: 400px;
-  background: url(../public/s3img1.jpg);
+  background: url(./assets/Images/s3img1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,7 +219,7 @@
 }
 
 .serviceimg2 {
-  background: url(../public/s3img2.jpg);
+  background: url(./assets/Images/s3img2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -303,7 +302,7 @@
 .collabimg1 {
   width: 100%;
   height: 176px;
-  background: url(../public/legalaidsclincs.png);
+  background: url(./assets/Images/legalaidsclincs.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -313,7 +312,7 @@
 .collabimg2 {
   width: 100%;
   height: 176px;
-  background: url(../public/bar_association_india.jpg);
+  background: url(./assets/Images/bar_association_india.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -323,7 +322,7 @@
 .collabimg3 {
   width: 100%;
   height: 176px;
-  background: url(../public/courts_img.png);
+  background: url(./assets/Images/courts_img.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
