@@ -363,3 +363,21 @@
   justify-content: center;
   align-items: center;
 }
+
+.contactuscontainer {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.forMapleft {
+  margin-top: 5%;
+  width: 420px;
+  height: 575px;
+}
+
+.forRight {
+  width: 900px;
+  height: auto;
+  background: blue;
+}
