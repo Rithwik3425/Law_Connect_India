@@ -17,7 +17,7 @@ function Lawyer() {
   }, []);
   return (
     <div>
-      <h1>Lawyers</h1>
+      <h1>lawyer</h1>
       {lawyer.map((lawyer) => (
         <div key={lawyer._id}>
           <h2>{lawyer.name}</h2>
