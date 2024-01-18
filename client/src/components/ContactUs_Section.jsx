@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { TileLayer, MapContainer } from "react-leaflet";
 
 function ContactUs_Section() {
-  const pos = [18.0158464, 79.5475968];
+  let pos = [18.0158464, 79.5475968];
   useEffect(function () {
     navigator.geolocation.getCurrentPosition((position) => {
       pos = [position.coords.latitude, position.coords.longitude];
