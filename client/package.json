@@ -11,12 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "bootstrap": "^5.3.2",
-    "install": "^0.13.0",
-=======
     "axios": "^1.6.5",
->>>>>>> origin/master
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
