@@ -2,30 +2,34 @@ const mongoose=require('mongoose');
 
 
 const LawSchema=mongoose.Schema({
-    Sector:{
-        type:String,
-        required:[true,'A Sector must be given'],
-    },
     name:{
         type:String,
         required:[true,'A name is required for a lawyer'],
         unique:true,
     },
-    officelocation:{
+    officeLocation:{
         type:String,
         required:[true,'A Office Location is Used'],
+        trim:true,
     },
     legalExperience:{
-        type:Number,
+        type:String,
         required:[true,'Experience must be provided'],
     },
-    languages:{
-        type:String,
-        required:true,
-    },
+    practiceArea:[String],
+    languages:[String],
     rating:{
         type:Number,
-        required:true,
+        default:3.5,
+    },
+    userRatingsCount:{
+    type:Number,
+     default:0,
+    },
+    description:{
+        type:String,
+        trim:true,
+        required:[true,'A lawyer Should have a Description'],
     }
 })
 
