@@ -1,34 +1,37 @@
-const mongoose=require('mongoose');
+import mongoose from 'mongoose';
 
-
-const LawSchema=mongoose.Schema({
-    Sector:{
-        type:String,
-        required:[true,'A Sector must be given'],
+const LawSchema = new mongoose.Schema({
+    name: {
+        type: String,
+        required: [true, 'A name is required for a lawyer'],
+        unique: true,
     },
-    name:{
-        type:String,
-        required:[true,'A name is required for a lawyer'],
-        unique:true,
+    officeLocation: {
+        type: String,
+        required: [true, 'A Office Location is Used'],
+        trim: true,
     },
-    officelocation:{
-        type:String,
-        required:[true,'A Office Location is Used'],
+    legalExperience: {
+        type: String,
+        required: [true, 'Experience must be provided'],
     },
-    legalExperience:{
-        type:Number,
-        required:[true,'Experience must be provided'],
+    practiceArea: [String],
+    languages: [String],
+    rating: {
+        type: Number,
+        default: 3.5,
     },
-    languages:{
-        type:String,
-        required:true,
+    userRatingsCount: {
+        type: Number,
+        default: 0,
     },
-    rating:{
-        type:Number,
-        required:true,
+    description: {
+        type: String,
+        trim: true,
+        required: [true, 'A lawyer Should have a Description'],
     }
-})
+});
 
-const Lawyers=new mongoose.model('Lawyers',LawSchema);
+const Lawyers = mongoose.model('Lawyers', LawSchema);
 
-module.exports=Lawyers;
+export default Lawyers;
