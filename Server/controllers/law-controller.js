@@ -1,9 +1,10 @@
-const express=require('express');
-const Lawyer =require('./../models/lawyers-model');
+import express from 'express';
+import Lawyer from './../models/lawyers-model.js';
 
 const getLawyers=async(req,res)=>{
   try{
-    const alllawyers=await Lawyer.find();
+    const query={...req.query}
+    const alllawyers=await Lawyer.find(query);
     res.status(200).json({
         status:"sucesss",
         data:{
@@ -107,4 +108,4 @@ const deleteLawyer=async(req,res)=>{
   }
 }
 
-module.exports={ getLawyers,createLawyer,getLawyer,getSector,updateLawyer,deleteLawyer }
+export { getLawyers, createLawyer, getLawyer, getSector, updateLawyer, deleteLawyer }
