@@ -3,9 +3,10 @@ import { Link } from "react-scroll";
 
 function PageNav() {
   return (
+    <div>
     <div className="navbar">
       <div className="logo"></div>
-      <Link to="/" className="linkss">
+      <Link to="/" className="linkss link1">
         Home
       </Link>
       <Link
@@ -14,7 +15,7 @@ function PageNav() {
         smooth={true}
         offset={50}
         duration={500}
-        className="linkss"
+        className="linkss link1"
       >
         About us
       </Link>
@@ -24,7 +25,7 @@ function PageNav() {
         smooth={true}
         offset={50}
         duration={500}
-        className="linkss"
+        className="linkss link1"
       >
         Services
       </Link>
@@ -34,17 +35,17 @@ function PageNav() {
         smooth={true}
         offset={50}
         duration={500}
-        className="linkss"
+        className="linkss link1"
       >
-        Collabrations
+        Collaborations
       </Link>
       <Link
-        to=""
+        to="/"
         spy={true}
         smooth={true}
         offset={50}
         duration={500}
-        className="linkss"
+        className="linkss link1"
       >
         Contact us
       </Link>
@@ -53,6 +54,7 @@ function PageNav() {
           Login
         </Link>
       </button>
+    </div>
     </div>
   );
 }

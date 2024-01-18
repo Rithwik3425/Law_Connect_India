@@ -3,85 +3,136 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto Mono", monospace;
+  font-family: "sans-serif";
   overflow-x: hidden;
+  letter-spacing:0.1px;
 }
 
-.navbar {
-  position: fixed;
-  z-index: 10;
-  width: 100vw;
-  height: 100px;
-  background: rgba(28, 13, 11, 1);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow-x: hidden;
+body{
+  height:100vh;
+  background-image: url("./assets/Images/bg_final_image.jpeg");
+  background-size: cover;
+  width:100vw;
 }
+
+/* .navbar {
+  height: 70px;
+  width:100vw;
+  background-image: url("./assets/Images/bg_final_image_top.jpeg");
+  background-size: cover;
+  background-position:center;
+  overflow-y: hidden;
+  margin:0px;
+  background-position:top;
+  background-position:-70px center;
+  
+} */
+
+
+/* .navbar-container{
+  height: 100vh;
+  background: url(./assets/Images/Home_bgimg.jpg);
+  background-size: cover;
+} */
+
 
 .logo {
   width: 150px;
   height: 60px;
-  background: url(./assets/Images/LawConnectIndia-logos.jpeg);
-  background-position: center;
+  background-image: url("./assets/Images/LawConnectIndia-logos.jpeg");
+  /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   font-size: 30px;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 20px;
+  
 }
 .linkss {
   border: none;
   background: transparent;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   text-decoration: none;
   color: white;
-  margin-right: 10px;
+  margin-right: 5px;
   transition: all 1s;
-  padding: 10px;
+  padding: 5px;
+  cursor:pointer;
 }
 
-.linkss:hover {
+/* .linkss-button {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+  transition: all 1s;
+  padding: 5px;
+} */
+
+.links1{
+  margin:-100px;
+}
+
+/* .linkss:hover {
   border: 2px solid white;
   border-radius: 40px;
-}
+} */
 
-.linkss:active {
+/* .linkss:active {
   background: white;
   color: rgba(28, 13, 11, 1);
-}
+} */
 .btn-logout {
-  background: rgba(34, 158, 249, 1);
-  border: none;
-  border-radius: 15px;
-  padding: 8px;
-  margin: 5px;
+  /* background: rgba(34, 158, 249, 1);
+  border: none; */
+  /* border-radius: 15px; */
+  /* padding: 8px;
+  margin: 5px; */
+  background: transparent;
+  border: 4px solid white;
+  /* border-radius: 5px; */
+  margin: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s;
+  overflow-y:hidden;
+}
+
+
+.btn-logout:hover {
+  color: rgb(103, 48, 14);
+  background: white;
 }
 
 /* Now is css for Homepage */
 
-.homepage {
+/* .homepage {
   height: 100vh;
-  background: url(./assets/Images/Home_bgimg.jpg);
+  background-image: url("./assets/Images/bg_image_home.jpeg");
   background-size: cover;
-  overflow-x: hidden;
-  background-repeat: no-repeat;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+  background-repeat:no-repeat;
+  background-position:-140px center;
+} */
 
 .bigHeading {
-  margin-top: 15%;
+  margin-left: 10%;
+  margin-right:10%;
+  margin-top:10%;
   text-align: center;
-  font-size: 60px;
+  font-size: 55px;
   color: white;
+  font-weight:bold;
 }
 
 .smallHeading {
@@ -97,54 +148,115 @@
   align-items: center;
   width: 100%;
   height: 150px;
-  padding: 30px;
+  padding: 15px;
+  overflow-y: hidden;
+  margin-bottom:90px;
 }
 
 .btnhomepage {
-  width: 200px;
+  width: 250px;
   height: 80px;
-  background: rgba(34, 158, 249, 1);
+  /* background: rgba(34, 158, 249, 1);
   border: 4px solid white;
   border-radius: 15px;
+  border-style:none;
+  margin: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  overflow-y: hidden;
+  margin-right:20px; */
+  background: transparent;
+  border: 4px solid white;
+  /* border-radius: 15px; */
   margin: 10px;
   font-size: 25px;
   font-weight: 600;
   color: white;
   cursor: pointer;
+  transition: all 0.5s;
+  
 }
 
 .btnhomepage1 {
-  width: 300px;
+  width: 250px;
   height: 80px;
-  background: rgba(34, 158, 249, 1);
+  /* background: rgba(34, 158, 249, 1);
   border: 4px solid white;
-  border-radius: 15px;
+  border-style:none;
+  background-image:transparent;
+  margin: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  overflow-y: hidden;
+  text-align:center;
+  margin-left:20px; */
+  background: transparent;
+  border: 4px solid white;
+  /* border-radius: 15px; */
   margin: 10px;
   font-size: 25px;
   font-weight: 600;
   color: white;
   cursor: pointer;
+  transition: all 0.5s;
+  overflow-y:hidden;
 }
+
+
+.btnhomepage:hover,
+.btnhomepage1:hover {
+  color: rgb(103, 48, 14);
+  background: white;
+}
+
+.v-shape{
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent; 
+  border-right: 15px solid transparent; 
+  border-top: 15px solid black; 
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; 
+  margin-top: -12px;
+  cursor:pointer; 
+}
+
 
 /* now css for aboutus start from here */
 .aboutus {
-  height: 100vh;
+  /* height: 100vh; */
   background: rgba(225, 219, 219, 1);
 }
+
+
+
+/*About us*/
+
 .headingaboutus {
   text-align: center;
-  font-size: 60px;
+  font-size: 50px;
+  overflow-y: hidden;
+  font-weight:bold;
+  margin-top:10px;
+  color:#3d2819;
 }
 
-.container {
+/* .container2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .box {
-  width: 700px;
-  height: 550px;
+  width: 600px;
+  height: 500px;
   background: rgba(241, 234, 234, 1);
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(97, 97, 97);
@@ -157,17 +269,19 @@
 
 .box1 {
   width: 700px;
-  height: 550px;
-  background: url(./assets/Images/Section2_img.jpg);
+  height: 500px;
+  background-image: url("./assets/Images/Section2_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(97, 97, 97);
   margin: 20px;
+  background-position:-80px center;
+  background-position:-150px bottom;
 }
 
 .boxmatter {
-  width: 640px;
+  width: 500px;
   margin-left: 20px;
   border: 1px solid black;
   border-radius: 15px;
@@ -177,6 +291,9 @@
 .boxmatter h3 {
   font-size: 30px;
 }
+
+
+/*services section*/
 
 .servicesss {
   width: 100vw;
@@ -190,16 +307,20 @@
 }
 
 .headingServices h3 {
-  font-size: 60px;
+  font-size: 50px;
+  overflow-y: hidden;
+  font-weight:bold;
+  color:#3d2819;
 }
 
 .headingServices p {
   margin-top: 1%;
   font-family: sans-serif;
   letter-spacing: 10px;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 100;
   color: rgba(0, 0, 0, 0.6);
+  letter-spacing: 1px;
 }
 
 .servicesimg {
@@ -210,10 +331,10 @@
 
 .serviceimg1,
 .serviceimg2 {
-  margin: 5%;
-  width: 625px;
+  margin: 3%;
+  width: 85%;
   height: 400px;
-  background: url(./assets/Images/s3img1.jpg);
+  background-image: url("./assets/Images/s3img1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,7 +346,7 @@
 }
 
 .serviceimg2 {
-  background: url(./assets/Images/s3img2.jpg);
+  background-image: url("./assets/Images/s3img2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -237,6 +358,7 @@
   color: white;
   font-size: 36px;
   font-weight: 800;
+  overflow-y: hidden;
 }
 
 .serviceimg1 button,
@@ -268,12 +390,27 @@
   overflow-x: hidden;
 }
 
+/* .collabbox p{
+  overflow-y: hidden;
+}
+
 .collabcontainer {
   width: 100vw;
   height: 500px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+} */
+
+.collabcontainer p{
+  overflow-y: hidden;
+}
+
+.collab-para{
+  color:#3d2819;
+  font-size:24px;
+  font-weight:300;
+
 }
 
 .collabbox {
@@ -308,7 +445,7 @@
 .collabimg1 {
   width: 100%;
   height: 176px;
-  background: url(./assets/Images/legalaidsclincs.png);
+  background-image: url("./assets/Images/legalaidsclincs.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -318,7 +455,7 @@
 .collabimg2 {
   width: 100%;
   height: 176px;
-  background: url(./assets/Images/bar_association_india.jpg);
+  background-image: url("./assets/Images/bar_association_india.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -328,7 +465,7 @@
 .collabimg3 {
   width: 100%;
   height: 176px;
-  background: url(./assets/Images/courts_img.png);
+  background-image: url("./assets/Images/courts_img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -336,26 +473,36 @@
 }
 
 .collabheading {
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
-  color: white;
+  color: #3d2819;
+  font-weight:bold;
 }
 
 .collabbtn {
-  width: 461px;
+  width: 300px;
   height: 80px;
-  background: rgba(34, 158, 249, 1);
-  font-size: 40px;
+  background-color:#3d2819;
+  font-size: 30px;
   font-weight: 600;
   color: white;
   border-radius: 25px;
   border: none;
+  cursor:pointer;
+  transition: all 0.5s;
+}
+
+.collabbtn:hover{
+  border:solid 5px #3d2819;
+  background-color:white;
+  color:#3d2819;
 }
 
 .collabbtn:active {
   background: white;
   color: rgba(34, 158, 249, 1);
 }
+
 .btncontainer {
   width: 100vw;
   height: auto;
@@ -366,18 +513,140 @@
 
 .contactuscontainer {
   height: 100vh;
-  display: flex;
+  /* display: flex;
   justify-content: space-evenly;
   align-items: center;
+  overflow-y: hidden; */
+  background-color:#dcb69a;
+  /* text-align:center; */
+  margin-top:20px;
 }
-.forMapleft {
+
+/* .forMapleft {
   margin-top: 5%;
   width: 420px;
   height: 575px;
-}
+} */
+
 
 .forRight {
-  width: 900px;
-  height: auto;
-  background: blue;
+  /* width: 900px; */
+  /* height: auto; */
+  margin:10px;
+  padding:10px;
+  
+}
+
+.forRight h1{
+  overflow-y: hidden;
+  color:#3d2819;
+  text-align:center;
+  font-weight:bold;
+  font-size:25px;
+}
+
+
+
+.input-el,
+.input-el1
+{
+  border-radius:12px;
+  margin:5px;
+  border:1px solid #b8b8b8;
+  padding:10px;
+  width:450px;
+  margin-top:15px;
+}
+
+.input-el-msg{
+  height:200px;
+}
+
+
+
+
+.send-button{
+  color:white;
+  background-color:#3d2819;
+  width:450px;
+  border-style:none;
+  border-radius:10px;
+  height:40px;
+  font-weight:bold;
+  font-size:24px;
+
+}
+
+.contact-icon{
+  height:40px;
+  width:40px;
+  border-radius:50%;
+}
+
+.details-con{
+  margin-left:10px;
+  color:#3d2819;
+}
+
+.details-con-head{
+  font-weight:700;
+}
+
+.forRight-p{
+  color:#323f4b;
+  text-align:center;
+  font-size:28px;
+  font-weight:bold;
+}
+
+
+.details-con-para{
+  margin-top:-10px;
+  font-weight:500;
+  color:#3d2819;
+}
+
+/*footer*/
+.icon-image{
+  width:30px;
+  height:30px;
+  margin-right:3%;
+  border-radius:5px;
+}
+
+
+.icon-container{
+  padding:5px;
+  margin:10px;
+}
+
+.bg-container{
+  background-color: #323f4b;
+  width:100vw;
+}
+
+
+.footer-image{
+  height:20px;
+  width:20px;
+  border-radius:50%;
+  margin-right:10px;
+}
+
+.footer-heading{
+  color:white;
+  font-weight:bold;
+  /* text-decoration:underline; */
+  font-size:24px;
+
+}
+
+.footer-para{
+  color:white;
+  font-size:20px;
+}
+
+.footer-card{
+  padding:5px;
+  margin:5px;
 }
