@@ -6,23 +6,23 @@ function Lawyer() {
   useEffect(function () {
     async function getLawyer() {
       try {
-        const response = await fetch("/api/Lawyers");
+        const response = await fetch("/api/Lawyers", {
+          method: "GET",
+          headers: { "Content-Type": "application/json" },
+        });
         const data = await response.json();
         setLawyer(data);
+        console.log(data);
       } catch (error) {
         console.log(error);
       }
     }
     getLawyer();
   }, []);
+
   return (
     <div>
-      <h1>Lawyers</h1>
-      {lawyer.map((lawyer) => (
-        <div key={lawyer._id}>
-          <h2>{lawyer.name}</h2>
-        </div>
-      ))}
+      <h1>{lawyer}</h1>
     </div>
   );
 }
