@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import { Route, Routes } from "react-router-dom";
 // import "./App.css";
 // import HomePage from "./pages/HomePage";
@@ -8,6 +9,11 @@
 import Axios from "axios";
 
 import { useEffect, useState } from "react";
+=======
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import HomePage from "./pages/HomePage";
+>>>>>>> origin/master
 
 function App() {
   const [backdata,setbackdata]=useState("");
@@ -20,6 +26,7 @@ function App() {
     fetchlaw();
   },[]);
   return (
+<<<<<<< HEAD
     // <Routes>
     //   <Route path="/" element={<HomePage />} />
     //   <Route path="/aboutus" element={<AboutUs />} />
@@ -30,6 +37,15 @@ function App() {
     <div>
       <h1>hello</h1>
     </div>
+=======
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      {/* <Route path="/aboutus" element={<AboutUs />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/collabrations" element={<Collabrations />} />
+      <Route path="/contactus" element={<ContactUs />} /> */}
+    </Routes>
+>>>>>>> origin/master
   );
 }
 

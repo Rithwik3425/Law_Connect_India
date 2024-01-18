@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 function PageNav() {
   return (
@@ -7,16 +8,44 @@ function PageNav() {
       <Link to="/" className="linkss">
         Home
       </Link>
-      <Link to="/aboutus" className="linkss">
+      <Link
+        to="headingaboutus"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        className="linkss"
+      >
         About us
       </Link>
-      <Link to="/services" className="linkss">
+      <Link
+        to="headingServices"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        className="linkss"
+      >
         Services
       </Link>
-      <Link to="/collabrations" className="linkss">
+      <Link
+        to="collabheading"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        className="linkss"
+      >
         Collabrations
       </Link>
-      <Link to="/contactus" className="linkss">
+      <Link
+        to=""
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        className="linkss"
+      >
         Contact us
       </Link>
       <button className="btn-logout">

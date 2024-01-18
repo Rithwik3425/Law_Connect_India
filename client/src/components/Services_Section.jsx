@@ -1,7 +1,7 @@
 function Services_Section() {
   return (
     <>
-      <div className="headingServices">
+      <div className="headingServices" name="headingServices">
         <h3>Our Services providers </h3>
         <p>Our verified legal service providers are</p>
       </div>
