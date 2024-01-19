@@ -1,22 +1,62 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-const LawyerList = ({ lawyer }) => {
+function SearchLawyer({ lawyer }) {
+  const [search, setSearch] = useState("");
+  function handleSearchSumbit(e) {
+    e.preventDefault();
+    console.log(search);
+    console.log(lawyer);
+  }
+  return (
+    <div>
+      <h2>Search Lawyer</h2>
+      <form onSubmit={handleSearchSumbit}>
+        <input
+          type="text"
+          placeholder="Search Lawyer"
+          value={search}
+          onChange={(e) => {
+            setSearch(e.target.value);
+          }}
+        />
+        <button type="submit" onSubmit={handleSearchSumbit}>
+          Search
+        </button>
+      </form>
+    </div>
+  );
+}
+
+function LawyerList({ lawyer }) {
+  const navigate = useNavigate();
+  function handleLawyer(e) {
+    e.preventDefault();
+    console.log(e.target.value);
+    console.log(lawyer);
+    navigate(`/lawyers/${e.target.value}`);
+  }
   return (
     <div>
       <h2>List of Lawyers</h2>
       <ul>
         {lawyer.map((lawyer) => (
-          <li key={lawyer._id} className="lawyer">
+          <button
+            key={lawyer._id}
+            className="lawyer"
+            onClick={handleLawyer}
+            value={lawyer._id}
+          >
             {lawyer.name}, Experience: {lawyer.legalExperience} , rating:
             {lawyer.rating}
-          </li>
+          </button>
         ))}
       </ul>
     </div>
   );
-};
+}
 
-function Lawyer() {
+function Lawyers() {
   const [lawyer, setLawyer] = useState([]);
   let lawyerdata = [];
   let lawyerArray = [];
@@ -64,9 +104,10 @@ function Lawyer() {
 
   return (
     <div>
+      <SearchLawyer lawyer={lawyer} />
       <LawyerList lawyer={lawyer} />
     </div>
   );
 }
 
-export default Lawyer;
+export default Lawyers;

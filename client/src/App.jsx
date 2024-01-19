@@ -3,7 +3,8 @@ import "./App.css";
 import HomePage from "./pages/HomePage";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
-import Lawyer from "./pages/Lawyer";
+import Lawyers from "./pages/Lawyers";
+import LawyerProfile from "./pages/LawyerProfile";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Route path="/" element={<HomePage />} />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/signin" element={<SignIn />} />
-      <Route path="/lawyers" element={<Lawyer />} />
+      <Route path="/lawyers" element={<Lawyers />} />
+      <Route path="/lawyers/:id" element={<LawyerProfile />} />
     </Routes>
   );
 }
