@@ -1,7 +1,7 @@
 import { useEffect, useState} from "react";
 
 function Lawyer() {
-  const [lawyers, setLawyer] = useState([]);
+  const [lawyer, setLawyer] = useState([]);
 
   useEffect(function () {
     async function getLawyer() {
@@ -45,17 +45,6 @@ function Lawyer() {
 
   return (
     <div>
-<<<<<<< HEAD
-      {Array.isArray(lawyers) && lawyers.map((lawyer) => (
-        <div key={lawyer._id}>
-          <h2>{lawyer.name}</h2>
-          <p>Office Location: {lawyer.officeLocation}</p>
-          <p>Legal Experience: {lawyer.legalExperience}</p>
-          console.log(lawyer.officeLocation)
-          <p>Practice Areas: {lawyer.practiceArea.join(', ')}</p>
-        </div>
-      ))}
-=======
       {Array.isArray(lawyer) &&
         lawyer.map((law) => (
           <div key={law._id}>
@@ -65,7 +54,6 @@ function Lawyer() {
             <p>Practice Areas: {law.practiceArea.join(", ")}</p>
           </div>
         ))}
->>>>>>> origin/master
     </div>
   );
 }

@@ -10,7 +10,7 @@
 
 body{
   height:100vh;
- /* background-image: url("./assets/Images/bg_final_image.jpeg");*/
+ background-image: url("./assets/Images/bg_final_image.jpeg");
   background-size: cover;
   width:100vw;
 }
