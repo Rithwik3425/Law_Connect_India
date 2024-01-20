@@ -7,7 +7,7 @@ function Services_Section() {
       <div className="row">
         <div className="col-12 col-md-12">
       <div className="headingServices">
-        <h3>Our Services providers </h3>
+        <h3>Our Service providers </h3>
         <p>Our verified legal service providers are</p>
       </div>
       </div>

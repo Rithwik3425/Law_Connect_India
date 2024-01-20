@@ -34,32 +34,47 @@ function SignIn() {
     }
   }
   return (
-    <div>
-      <h1>Sign in</h1>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="email"
-          placeholder="email"
-          id="email"
-          onChange={handleChange}
-        />
-        <input
-          type="password"
-          placeholder="password"
-          id="password"
-          onChange={handleChange}
-        />
-        <button disabled={loading}>{loading ? `loading` : `Sign in`}</button>
-      </form>
-      <div>
-        <p>Don't have an account?</p>
-        <Link to={"/signup"}>
-          <span>Sign up</span>
-        </Link>
-      </div>
-      {error && <p className="text-red-500 mt-5">{error}</p>}
-    </div>
-  );
+    <div className="sign-con">
+    <div className="container">
+      <div className="row">
+        <div className="col-12">
+    <div className="d-flex flex-column"> 
+    <div className="sign-card">
+
+<h1>Sign in</h1>
+<form onSubmit={handleSubmit}>
+  <input
+    type="email"
+    placeholder="email"
+    id="email"
+    className="sign-el"
+    onChange={handleChange}
+  />
+  <input
+    type="password"
+    placeholder="password"
+    id="password"
+    className="sign-el"
+    onChange={handleChange}
+  />
+  <br/>
+  <button className="sign-btn" disabled={loading}>{loading ? `loading` : `Sign in`}</button>
+</form>
+
+  <p>Don't have an account?</p>
+  <Link to={"/signup"}>
+    <span>Sign up</span>
+  </Link>
+
+{error && <p className="text-red-500 mt-3">{error}</p>}
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+);
 }
 
 export default SignIn;

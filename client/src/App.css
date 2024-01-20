@@ -8,25 +8,16 @@
   letter-spacing: 0.1px;
 }
 
-body {
+/* body {
   height: 100vh;
    background-image: url("./assets/Images/bg_final_image.jpeg");
   background-size: cover;
   width: 100vw;
-}
-
-/* .navbar {
-  height: 70px;
-  width:100vw;
-  background-image: url("./assets/Images/bg_final_image_top.jpeg");
-  background-size: cover;
-  background-position:center;
-  overflow-y: hidden;
-  margin:0px;
-  background-position:top;
-  background-position:-70px center;
-  
 } */
+
+.navbar{
+  background-color:black;
+}
 
 /* .navbar-container{
   height: 100vh;
@@ -113,13 +104,11 @@ body {
 
 /* Now is css for Homepage */
 
-/* .homepage {
-  height: 100vh;
-  background-image: url("./assets/Images/bg_image_home.jpeg");
-  background-size: cover;
-  background-repeat:no-repeat;
-  background-position:-140px center;
-} */
+.homepage{
+  background-image:url("./assets/Images/bg_final_image.jpeg");
+  height:100vh;
+  background-size:cover;
+}
 
 .bigHeading {
   margin-left: 10%;
@@ -487,7 +476,7 @@ body {
   color: #3d2819;
 }
 
-.collabbtn:active {
+/* .collabbtn:active {
   background: white;
   color: rgba(34, 158, 249, 1);
 }
@@ -498,7 +487,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .contactuscontainer {
   height: 100vh;
@@ -529,7 +518,7 @@ body {
   color: #3d2819;
   text-align: center;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .input-el,
@@ -570,12 +559,13 @@ body {
 
 .details-con-head {
   font-weight: 700;
+  font-size:24px;
 }
 
 .forRight-p {
   color: #323f4b;
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -583,6 +573,7 @@ body {
   margin-top: -10px;
   font-weight: 500;
   color: #3d2819;
+  font-size:20px;
 }
 
 /*footer*/
@@ -620,6 +611,10 @@ body {
 .footer-para {
   color: white;
   font-size: 20px;
+}
+
+.footer-link{
+  font-size:20px;
 }
 
 .footer-card {

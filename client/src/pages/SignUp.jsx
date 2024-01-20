@@ -34,28 +34,34 @@ function SignUp() {
     }
   }
   return (
-    <div>
-      <h1>Sign up</h1>
-      <form onSubmit={handleSubmit}>
+    <div className="sign-con">
+          <div className="d-flex flex-column"> 
+          <div className="sign-card">
+          <h1>Sign up</h1>
+       <form onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="username"
           id="username"
+          className="sign-el"
           onChange={handleChange}
         />
         <input
           type="email"
           placeholder="email"
           id="email"
+          className="sign-el"
           onChange={handleChange}
         />
         <input
           type="password"
           placeholder="password"
           id="password"
+          className="sign-el"
           onChange={handleChange}
         />
-        <button disabled={loading}>{loading ? `loading` : `Sign up`}</button>
+        <br/>
+        <button className="sign-btn" disabled={loading}>{loading ? `loading` : `Sign up`}</button>
       </form>
       <div>
         <p>Have an account?</p>
@@ -64,7 +70,16 @@ function SignUp() {
         </Link>
       </div>
       {error && <p className="text-red-500 mt-5">{error}</p>}
-    </div>
+     
+      
+      </div>
+      </div>
+      </div>
+
+
+
+
+
   );
 }
 

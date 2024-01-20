@@ -42,9 +42,7 @@ function Footer_Section() {
                 <div className="col-6 col-md-3">
                   <div className="footer-card">
                     <h5 className="footer-heading">LawConnectIndia</h5>
-                    <p className="footer-para">Lorem.</p>
-                    <p className="footer-para">Lorem, ipsum.</p>
-                    <p className="footer-para">Lorem, ipsum dolor.</p>
+                    <a href="" className="footer-link">Collab with us</a>
                   </div>
                 </div>
 
@@ -52,10 +50,10 @@ function Footer_Section() {
 
                 <div className="d-flex flex-row justify-content-end">
             <div className="icon-container">
-         
+         <a >
           <img src="https://www.freeiconspng.com/uploads/facebook-transparent-logo-png-0.png" className="icon-image"
             />
-        
+        </a>
           
           
           </div>
@@ -63,9 +61,10 @@ function Footer_Section() {
 
           
           <div className="icon-container">
-          
+          <a>
           <img src="https://kelley.iu.edu/images/bloomington/alumni/linkedin-icon-512.png" className="icon-image"
             />
+          </a>
           
           
           
@@ -73,9 +72,10 @@ function Footer_Section() {
 
            
           <div className="icon-container">
-          
+          <a>
           <img src="https://cdn.groovekart.com/fiestaottawarentalquote/img/X0yOTvjSJIxShw27uglQ2PYpLFEH8K.webp" className="icon-image"
             />
+          </a>
           
           
           
@@ -83,9 +83,10 @@ function Footer_Section() {
            
           
           <div className="icon-container">
-          
+          <a>
             <img src="https://facebook.github.io/react-native/img/showcase/instagram.png" className="icon-image"
             />
+            </a>
           
           
           
@@ -93,9 +94,10 @@ function Footer_Section() {
 
           
           <div className="icon-container">
-          
+          <a>
           <img src="https://assets.designhill.com/design-blog/wp-content/uploads/2023/07/7-2.jpg" className="icon-image"
             />
+            </a>
           
           
           

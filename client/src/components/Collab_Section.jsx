@@ -49,11 +49,7 @@ function Collab_Section() {
         </div>
         </div>
       {/* </div> */}
-      <div className="col-12">
-      <div className="btncontainer">
-        <button className="collabbtn">Collab with us</button>
-      </div>
-      </div>
+   
       </div>
       </div>
     </>
