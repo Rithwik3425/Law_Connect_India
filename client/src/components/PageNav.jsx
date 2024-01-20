@@ -1,16 +1,27 @@
-// import { Link } from "react-router-dom";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
+//import { Link } from "react-scroll";
 
 function PageNav() {
   return (
     <div>
     <div className="navbar">
-      <div className="logo"></div>
+    <Link to="/"><div className="logo"></div></Link>
       <Link to="/" className="linkss link1">
         Home
       </Link>
+      
       <Link
-        to="headingaboutus"
+        to="/lawyers"
+        spy={true}
+        smooth={true}
+        offset={50}
+        duration={500}
+        className="linkss link1"
+      >
+        Find A LSP
+      </Link>
+      <Link
+        to="/aboutUs"
         spy={true}
         smooth={true}
         offset={50}
@@ -20,17 +31,7 @@ function PageNav() {
         About us
       </Link>
       <Link
-        to="headingServices"
-        spy={true}
-        smooth={true}
-        offset={50}
-        duration={500}
-        className="linkss link1"
-      >
-        Services
-      </Link>
-      <Link
-        to="collabheading"
+        to="/collabwithus"
         spy={true}
         smooth={true}
         offset={50}
@@ -50,7 +51,7 @@ function PageNav() {
         Contact us
       </Link>
       <button className="btn-logout">
-        <Link to="/login" className="linkss">
+        <Link to="/signin" className="linkss">
           Login
         </Link>
       </button>
