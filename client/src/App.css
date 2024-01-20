@@ -15,8 +15,8 @@
   width: 100vw;
 } */
 
-.navbar{
-  background-color:black;
+.navbar {
+  background-color: black;
 }
 
 /* .navbar-container{
@@ -104,10 +104,10 @@
 
 /* Now is css for Homepage */
 
-.homepage{
-  background-image:url("./assets/Images/bg_final_image.jpeg");
-  height:100vh;
-  background-size:cover;
+.homepage {
+  background-image: url("./assets/Images/bg_final_image.jpeg");
+  height: 100vh;
+  background-size: cover;
 }
 
 .bigHeading {
@@ -161,6 +161,7 @@
   color: white;
   cursor: pointer;
   transition: all 0.5s;
+  border-radius: 15px;
 }
 
 .btnhomepage1 {
@@ -188,6 +189,7 @@
   cursor: pointer;
   transition: all 0.5s;
   overflow-y: hidden;
+  border-radius: 15px;
 }
 
 .btnhomepage:hover,
@@ -559,7 +561,7 @@
 
 .details-con-head {
   font-weight: 700;
-  font-size:24px;
+  font-size: 24px;
 }
 
 .forRight-p {
@@ -573,7 +575,7 @@
   margin-top: -10px;
   font-weight: 500;
   color: #3d2819;
-  font-size:20px;
+  font-size: 20px;
 }
 
 /*footer*/
@@ -613,8 +615,8 @@
   font-size: 20px;
 }
 
-.footer-link{
-  font-size:20px;
+.footer-link {
+  font-size: 20px;
 }
 
 .footer-card {
@@ -629,67 +631,64 @@
   background: rgb(202, 227, 230);
 }
 
-
-
-.sign-el
-{
-  border-radius:12px;
-  margin:5px;
-  border:1px solid #b8b8b8;
-  padding:10px;
-  width:350px;
-  margin-top:15px;
-  margin-bottom:10px;
+.sign-el {
+  border-radius: 12px;
+  margin: 5px;
+  border: 1px solid #b8b8b8;
+  padding: 10px;
+  width: 350px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
-.sign-con{
-  background-image:url("https://th.bing.com/th/id/R.4a29922ecc034fec8c47f72abc2e3d3a?rik=QZ1MVBejFFcf5w&riu=http%3a%2f%2fwww.solidbackgrounds.com%2fimages%2f2560x1600%2f2560x1600-white-solid-color-background.jpg&ehk=gxDw3Nje94wPA9EVy1hB2RqiK0vN4sOUB2E30hkUzCU%3d&risl=&pid=ImgRaw&r=0");
-  background-size:cover;
-  height:100vh;
-  text-align:center;
+.sign-con {
+  background-image: url("https://th.bing.com/th/id/R.4a29922ecc034fec8c47f72abc2e3d3a?rik=QZ1MVBejFFcf5w&riu=http%3a%2f%2fwww.solidbackgrounds.com%2fimages%2f2560x1600%2f2560x1600-white-solid-color-background.jpg&ehk=gxDw3Nje94wPA9EVy1hB2RqiK0vN4sOUB2E30hkUzCU%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
 }
 
-.sign-card{
-  margin-left:auto;
-  margin-right:auto;
-  box-shadow:10px 10px 10px 10px rgba(97, 97, 97, 5);
-  padding:10px;
-  border-radius:10px;
-  width:450px;
-  height:500px;
-  margin-top:30px;
-  margin-bottom:30px;
-  padding:20px;
+.sign-card {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 10px;
+  width: 450px;
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
   overflow-y: hidden;
+  transition: all 0.5s;
+  border: 2px solid rgb(179, 179, 179);
 }
 
-.sign-btn
-{
+.sign-card:hover {
+  box-shadow: 10px 10px 10px 10px rgba(97, 97, 97, 5);
+  border: none;
+}
+.sign-btn {
   width: 150px;
   height: 40px;
-  background-color:#552a0b;
+  background-color: #552a0b;
   font-size: 24px;
   font-weight: 600;
-  color:white;
+  color: white;
   border-radius: 15px;
   border: none;
-  cursor:pointer;
+  cursor: pointer;
   transition: all 0.5s;
-  text-align:center;
-  padding:4px;
+  text-align: center;
+  padding: 4px;
   overflow-y: hidden;
-  margin-top:20px;
-  margin-bottom:40px;
-  text-align:center;
-  padding-bottom:40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
-
-
-
-.sign-btn:hover
-{
-  border:solid 5px #552a0b;
-  background-color:white;
-  color:#3d2819;
+.sign-btn:hover {
+  border: solid 5px #552a0b;
+  background-color: white;
+  color: #3d2819;
 }
