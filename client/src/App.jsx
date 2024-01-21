@@ -5,6 +5,7 @@ import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 import Lawyers from "./pages/Lawyers";
 import LawyerProfile from "./pages/LawyerProfile";
+import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/signin" element={<SignIn />} />
       <Route path="/lawyers" element={<Lawyers />} />
       <Route path="/lawyers/:id" element={<LawyerProfile />} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
 }
