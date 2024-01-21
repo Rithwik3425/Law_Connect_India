@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
+import morgan from 'morgan';
 import userRouter from './routes/user.route.js';
 import authRouter from './routes/auth.route.js';
 import LawyerRouter from './routes/lawyer.route.js';
@@ -21,7 +22,7 @@ mongoose.connect(db).then(()=>{
 const app = express();
 
 app.use(express.json());
-
+app.use(morgan('dev'));
 app.use(cookieParser());
 
 app.listen(5000, () => {

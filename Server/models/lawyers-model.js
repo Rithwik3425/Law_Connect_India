@@ -32,6 +32,6 @@ const LawSchema = new mongoose.Schema({
     }
 });
 
-const Lawyers = mongoose.model('Lawyers', LawSchema);
+const Lawyer = mongoose.model('Lawyers', LawSchema);
 
-export default Lawyers;
+export default Lawyer;
