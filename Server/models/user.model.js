@@ -1,29 +1,31 @@
-import mongoose from 'mongoose';
+const mongoose =require('mongoose');
 
-const userSchema = new mongoose.Schema(
-  {
-    username: {
-      type: String,
-      required: true,
-      unique: true,
-    },
-    email: {
-      type: String,
-      required: true,
-      unique: true,
-    },
-    password: {
-      type: String,
-      required: true,
-    },
-    avatar:{
-      type: String,
-      default: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-    },
+const userSchema= new mongoose.Schema({
+  name:{
+    type:String,
+    required:[true,'please provide a name'],
+    trim:true,
   },
-  { timestamps: true }
-);
-
-const User = mongoose.model('User', userSchema);
-
-export default User;
+  email:{
+    type:String,
+    required:[true,'Please enter the email'],
+    unique:true,
+    lowercase:true,
+    validator:[validator.isEmail,'please enter a valid email id']
+  },
+  password:{
+    type:String,
+    required:[true,'please provide the password'],
+    minlenght:8,
+    trim :true,
+  },
+  passwordConfm:{
+    type:String,
+    required:[true,'Please enter  a password once again'],
+    validator:{
+      validator:function(el) {
+        return el===this.password;
+      }
+    }
+  }
+})
