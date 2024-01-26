@@ -29,18 +29,15 @@
   width: 150px;
   height: 60px;
   background-image: url("./assets/Images/LawConnectIndia-logos.jpeg");
-  /* background-position: center; */
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   font-size: 30px;
   font-weight: 600;
   margin-top: 10px;
   margin-left: 20px;
 }
+
 .linkss {
   border: none;
   background: transparent;
@@ -48,9 +45,9 @@
   font-weight: 600;
   text-decoration: none;
   color: white;
-  margin-right: 5px;
+  /* margin-right: 5px; */
   transition: all 1s;
-  padding: 5px;
+  /* padding: 5px; */
   cursor: pointer;
 }
 
@@ -67,40 +64,35 @@
 } */
 
 .links1 {
-  margin: -100px;
+  margin: -50px;
 }
 
-/* .linkss:hover {
-  border: 2px solid white;
-  border-radius: 40px;
-} */
+.links2 {
+  margin: -50px;
+  margin-right:-140px;
+}
 
-/* .linkss:active {
-  background: white;
-  color: rgba(28, 13, 11, 1);
-} */
-.btn-logout {
-  /* background: rgba(34, 158, 249, 1);
-  border: none; */
-  /* border-radius: 15px; */
-  /* padding: 8px;
-  margin: 5px; */
+.btn-login {
+  width: 125px;
+  height: 50px;
   background: transparent;
   border: 4px solid white;
-  /* border-radius: 5px; */
   margin: 10px;
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 600;
   color: white;
   cursor: pointer;
   transition: all 0.5s;
   overflow-y: hidden;
+  border-radius: 15px;
+  text-align:center;
 }
 
-.btn-logout:hover {
+.btn-login:hover {
   color: rgb(103, 48, 14);
   background: white;
 }
+
 
 /* Now is css for Homepage */
 
@@ -167,21 +159,8 @@
 .btnhomepage1 {
   width: 250px;
   height: 80px;
-  /* background: rgba(34, 158, 249, 1);
-  border: 4px solid white;
-  border-style:none;
-  background-image:transparent;
-  margin: 5px;
-  font-size: 25px;
-  font-weight: 600;
-  color: white;
-  cursor: pointer;
-  overflow-y: hidden;
-  text-align:center;
-  margin-left:20px; */
   background: transparent;
   border: 4px solid white;
-  /* border-radius: 15px; */
   margin: 10px;
   font-size: 25px;
   font-weight: 600;
@@ -408,7 +387,7 @@
   font-size: 24px;
 }
 
-.collabbox:hover {
+/* .collabbox:hover {
   width: 400px;
   height: 500px;
   .collabimg1 {
@@ -420,7 +399,7 @@
   .collabimg3 {
     height: 300px;
   }
-}
+} */
 
 .collabimg1 {
   width: 100%;
@@ -492,27 +471,25 @@
 } */
 
 .contactuscontainer {
-  height: 100vh;
-  /* display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  overflow-y: hidden; */
   background-color: #dcb69a;
-  /* text-align:center; */
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  flex-direction:row;
+  overflow-y: hidden;
+  
 }
 
-/* .forMapleft {
-  margin-top: 5%;
-  width: 420px;
-  height: 575px;
-} */
 
 .forRight {
-  /* width: 900px; */
-  /* height: auto; */
   margin: 10px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  flex-direction:row;
 }
 
 .forRight h1 {
@@ -552,6 +529,7 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
+  margin-left:25%;
 }
 
 .details-con {
@@ -559,9 +537,17 @@
   color: #3d2819;
 }
 
+.con-center{
+  margin-left:15%;
+}
+
 .details-con-head {
   font-weight: 700;
   font-size: 24px;
+}
+
+.con-con{
+  margin-left:400px;
 }
 
 .forRight-p {
@@ -624,12 +610,152 @@
   margin: 5px;
 }
 
-.lawyer {
-  font-size: 32px;
-  font-weight: 600;
-  margin: 5px;
-  background: rgb(202, 227, 230);
+
+/* Lawyers page*/
+
+.law-con{
+  padding:10px;
+  text-align:center;
 }
+
+.search-law-el{
+  border-radius:50px;
+  height:50px;
+  width:300px;
+  border-width:1px;
+  padding:10px;
+  margin:10px;
+}
+
+.search-button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 3px solid #552a0b;
+    margin: 10px;
+    margin-left:10px;
+    margin-top:-1px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #552a0b;
+    cursor: pointer;
+    transition: all 0.5s;
+    overflow-y: hidden;
+    border-radius: 10px;
+    text-align:center;
+}
+
+.search-button:hover{
+  background-color:#552a0b;
+  color:white;
+}
+
+.list-heading{
+  font-size:24px;
+  font-weight:500;
+  color:#552a0b;
+  margin:20px;
+
+}
+
+.law-head2{
+  text-align:center;
+  font-weight:bold;
+  color:#552a0b;
+}
+
+
+.lawyer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 20px;
+  flex-direction:row;
+  text-align:left;
+  
+}
+
+.lawyer {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  height: 300px;
+  width: 350px;
+  color: #3d2819;
+  background-color: #dcb69a;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.lawyer:hover {
+  background-color: #552a0b;
+  color:white;
+  .law-button {
+    color:white;
+    background: #552a0b;
+    border:3px solid white;
+  }
+}
+
+.lawyer-name{
+  font-weight:bold;
+  margin-top:3px;
+}
+
+.lawyer-exp{
+  font-size:16px;
+  text-align:left;
+  font-weight:400;
+
+}
+
+.law-button {
+  width: 125px;
+  height: 50px;
+  background: transparent;
+  border: 3px solid #552a0b;
+  margin: 10px;
+  margin-left:10px;
+  margin-top:-1px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #552a0b;
+  cursor: pointer;
+  transition: all 0.5s;
+  overflow-y: hidden;
+  border-radius: 15px;
+  text-align:center;
+}
+
+.lawyer-image{
+  height:120px;
+  width:120px;
+  border-radius:50%;
+}
+
+.verify-con{
+  text-align:left;
+}
+
+.verified-image{
+  height:20px;
+  width:20px;
+  border-radius:50%;
+}
+
+/* .law-button:hover {
+  color: rgb(103, 48, 14);
+  background: white;
+} */
+
+
+
 
 .sign-el {
   border-radius: 12px;
@@ -641,23 +767,28 @@
   margin-bottom: 10px;
 }
 
+
 .sign-con {
   background-image: url("https://th.bing.com/th/id/R.4a29922ecc034fec8c47f72abc2e3d3a?rik=QZ1MVBejFFcf5w&riu=http%3a%2f%2fwww.solidbackgrounds.com%2fimages%2f2560x1600%2f2560x1600-white-solid-color-background.jpg&ehk=gxDw3Nje94wPA9EVy1hB2RqiK0vN4sOUB2E30hkUzCU%3d&risl=&pid=ImgRaw&r=0");
   background-size: cover;
   height: 100vh;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-card-container {
+  display: grid;
+  place-items: center;
+  text-align:center;
 }
 
 .sign-card {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
+  margin: 10px;
+  padding: 20px;
   border-radius: 10px;
   width: 450px;
   height: 500px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding: 20px;
   overflow-y: hidden;
   transition: all 0.5s;
   border: 2px solid rgb(179, 179, 179);
@@ -667,6 +798,7 @@
   box-shadow: 10px 10px 10px 10px rgba(97, 97, 97, 5);
   border: none;
 }
+
 .sign-btn {
   width: 150px;
   height: 40px;
@@ -692,3 +824,40 @@
   background-color: white;
   color: #3d2819;
 }
+
+/* Page Not Found */
+
+.page-not-found{
+  background-image:url("./assets/Images/error_img_magic.jpg");
+  height:200px;
+  background-size:cover;
+  width:300px;
+  border-radius:50% 45%;
+  margin:10px;
+}
+
+.page-not-found-heading{
+  font-size:35px;
+  font-weight:bold;
+  color:#552a0b;
+}
+
+.page-not-span{
+  font-size:35px;
+  font-weight:400;
+  color:#323f4b;
+}
+
+.page-msg{
+  font-size:24px;
+  font-weight:200;
+  color:black;
+}
+
+.container-card{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
