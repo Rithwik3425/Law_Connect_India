@@ -1,4 +1,6 @@
 const mongoose =require('mongoose');
+const bcrypt=require('bcrypt');
+const validator=require('validator');
 
 const userSchema= new mongoose.Schema({
   name:{
@@ -29,3 +31,21 @@ const userSchema= new mongoose.Schema({
     }
   }
 })
+
+ 
+UserSchema.pre('save',async function(next){
+
+if(!this.isModified('password')) return next();
+
+this.password=await bcrypt.hash(this.password,12);
+
+this.passwordConfirm=undefined;
+next();
+})
+
+UserSchema.methods.corrpassw=async function(clientpassw,userpassw){
+  return await bcrypt.compare(clientpassw,userpassw);
+}
+const UserModel=new mongoose.model('User',userSchema);
+
+module.exports=UserModel;
