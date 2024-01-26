@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function SearchLawyer({ lawyer }) {
   const [search, setSearch] = useState("");
@@ -22,7 +22,11 @@ function SearchLawyer({ lawyer }) {
             setSearch(e.target.value);
           }}
         />
-        <button className="search-button" type="submit" onSubmit={handleSearchSumbit}>
+        <button
+          className="search-button"
+          type="submit"
+          onSubmit={handleSearchSumbit}
+        >
           Search
         </button>
       </form>
@@ -45,42 +49,41 @@ function LawyerList({ lawyer }) {
       <ul>
         {lawyer.map((lawyer) => (
           <div className="lawyer-container">
-           
-           
-           
-          <div
-            key={lawyer._id}
-            className="lawyer"
-            onClick={handleLawyer}
-            value={lawyer._id}
-          >
-            <div className="verify-con">
-             {/* <div className="d-flex flex-row justify-content-center"> */}
-              <img src="https://th.bing.com/th/id/OIP.rIpPnTCjSMIu3As7enoaAgAAAA?rs=1&pid=ImgDetMain" className="verified-image"
-              />
-            {/* </div> */}
-            </div>
+            <div
+              key={lawyer._id}
+              className="lawyer"
+              onClick={handleLawyer}
+              value={lawyer._id}
+            >
+              <div className="verify-con">
+                {/* <div className="d-flex flex-row justify-content-center"> */}
+                <img
+                  src="https://th.bing.com/th/id/OIP.rIpPnTCjSMIu3As7enoaAgAAAA?rs=1&pid=ImgDetMain"
+                  className="verified-image"
+                />
+                {/* </div> */}
+              </div>
 
-             <img src="https://img.freepik.com/premium-vector/lawyer-avatar-vector-illustration_822301-12.jpg" className="lawyer-image"
-            />
-            <br/>
-            <span className="lawyer-name">
-            {lawyer.name} </span>
-            <hr></hr>
-            <div className="container">
-              
-              <div className="d-flex flex-row mt-2">
-            <span class="lawyer-exp">
-            Experience: {lawyer.legalExperience}
-            <br/>
-             Rating:
-            {lawyer.rating}
-            </span>
-            <br/>
-            <button className="law-button">Contact Now</button>
-          </div>
-          </div>
-          </div>
+              <img
+                src="https://img.freepik.com/premium-vector/lawyer-avatar-vector-illustration_822301-12.jpg"
+                className="lawyer-image"
+              />
+              <br />
+              <span className="lawyer-name">{lawyer.name} </span>
+              <hr></hr>
+              <div className="container">
+                <div className="d-flex flex-row mt-2">
+                  <span className="lawyer-exp">
+                    Experience: {lawyer.legalExperience}
+                    <br />
+                    Rating:
+                    {lawyer.rating}
+                  </span>
+                  <br />
+                  <button className="law-button">Contact Now</button>
+                </div>
+              </div>
+            </div>
           </div>
         ))}
       </ul>
