@@ -14,7 +14,7 @@ function App() {
       <Route path="/signup" element={<SignUp />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/lawyers" element={<Lawyers />} />
-      <Route path="/lawyers/:id" element={<LawyerProfile />} />
+      <Route path="/lawyers/:lawyerid" element={<LawyerProfile />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

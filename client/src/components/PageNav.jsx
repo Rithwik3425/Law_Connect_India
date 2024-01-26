@@ -6,7 +6,7 @@ function PageNav() {
     <div>
     <div className="navbar">
     <Link to="/"><div className="logo"></div></Link>
-      <Link to="/" className="linkss link1">
+      <Link to="/" className="linkss links1">
         Home
       </Link>
       
@@ -16,7 +16,7 @@ function PageNav() {
         smooth={true}
         offset={50}
         duration={500}
-        className="linkss link1"
+        className="linkss links1"
       >
         Find A LSP
       </Link>
@@ -26,7 +26,7 @@ function PageNav() {
         smooth={true}
         offset={50}
         duration={500}
-        className="linkss link1"
+        className="linkss links1"
       >
         About us
       </Link>
@@ -36,7 +36,7 @@ function PageNav() {
         smooth={true}
         offset={50}
         duration={500}
-        className="linkss link1"
+        className="linkss links1"
       >
         Collaborations
       </Link>
@@ -46,15 +46,15 @@ function PageNav() {
         smooth={true}
         offset={50}
         duration={500}
-        className="linkss link1"
+        className="linkss links2"
       >
         Contact us
       </Link>
-      <button className="btn-logout">
         <Link to="/signin" className="linkss">
-          Login
+          <button className="btn-login">
+            Login
+          </button>
         </Link>
-      </button>
     </div>
     </div>
   );
