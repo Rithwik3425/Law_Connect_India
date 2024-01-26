@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
 function LawyerProfile() {
-  const { id } = useParams();
+  const { lawyerid } = useParams();
   const [lawyer, setLawyer] = useState([]);
   let lawyerdata = [];
   let lawyerArray = [];
@@ -10,12 +10,13 @@ function LawyerProfile() {
   useEffect(function () {
     async function getLawyer() {
       try {
-        const response = await fetch(`/api/Lawyers/${id}`, {
+        const response = await fetch(`/api/Lawyers/${lawyerid}`, {
           method: "GET",
           headers: { "Content-Type": "application/json" },
         });
         const res = await response.json();
         lawyerdata = res.data.alllawyers;
+        console.log(lawyerdata);
         lawyerArray = Object.values(lawyerdata);
         setLawyer([...lawyer, ...lawyerArray]);
         console.log(lawyer);

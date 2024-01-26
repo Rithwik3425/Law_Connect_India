@@ -30,6 +30,7 @@ function SearchLawyer({ lawyer }) {
 
 function LawyerList({ lawyer }) {
   const navigate = useNavigate();
+
   function handleLawyer(e) {
     e.preventDefault();
     console.log(e.target.value);
@@ -72,6 +73,7 @@ function Lawyers() {
         lawyerdata = res.data.alllawyers;
         lawyerArray = Object.values(lawyerdata);
         setLawyer([...lawyer, ...lawyerArray]);
+        console.log(lawyerArray);
       } catch (error) {
         console.log(error);
       }
