@@ -69,7 +69,7 @@
 
 .links2 {
   margin: -50px;
-  margin-right:-140px;
+  margin-right: -140px;
 }
 
 .btn-login {
@@ -85,14 +85,13 @@
   transition: all 0.5s;
   overflow-y: hidden;
   border-radius: 15px;
-  text-align:center;
+  text-align: center;
 }
 
 .btn-login:hover {
   color: rgb(103, 48, 14);
   background: white;
 }
-
 
 /* Now is css for Homepage */
 
@@ -475,12 +474,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
-  flex-direction:row;
+  height: 100vh;
+  flex-direction: row;
   overflow-y: hidden;
-  
 }
-
 
 .forRight {
   margin: 10px;
@@ -488,8 +485,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
-  flex-direction:row;
+  height: 100vh;
+  flex-direction: row;
 }
 
 .forRight h1 {
@@ -529,7 +526,7 @@
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  margin-left:25%;
+  margin-left: 25%;
 }
 
 .details-con {
@@ -537,8 +534,8 @@
   color: #3d2819;
 }
 
-.con-center{
-  margin-left:15%;
+.con-center {
+  margin-left: 15%;
 }
 
 .details-con-head {
@@ -546,8 +543,8 @@
   font-size: 24px;
 }
 
-.con-con{
-  margin-left:400px;
+.con-con {
+  margin-left: 400px;
 }
 
 .forRight-p {
@@ -610,60 +607,57 @@
   margin: 5px;
 }
 
-
 /* Lawyers page*/
 
-.law-con{
-  padding:10px;
-  text-align:center;
+.law-con {
+  padding: 10px;
+  text-align: center;
 }
 
-.search-law-el{
-  border-radius:50px;
-  height:50px;
-  width:300px;
-  border-width:1px;
-  padding:10px;
-  margin:10px;
+.search-law-el {
+  border-radius: 50px;
+  height: 50px;
+  width: 300px;
+  border-width: 1px;
+  padding: 10px;
+  margin: 10px;
 }
 
-.search-button{
-    width: 100px;
-    height: 30px;
-    background: transparent;
-    border: 3px solid #552a0b;
-    margin: 10px;
-    margin-left:10px;
-    margin-top:-1px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #552a0b;
-    cursor: pointer;
-    transition: all 0.5s;
-    overflow-y: hidden;
-    border-radius: 10px;
-    text-align:center;
+.search-button {
+  width: 100px;
+  height: 30px;
+  background: transparent;
+  border: 3px solid #552a0b;
+  margin: 10px;
+  margin-left: 10px;
+  margin-top: -1px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #552a0b;
+  cursor: pointer;
+  transition: all 0.5s;
+  overflow-y: hidden;
+  border-radius: 10px;
+  text-align: center;
 }
 
-.search-button:hover{
-  background-color:#552a0b;
-  color:white;
+.search-button:hover {
+  background-color: #552a0b;
+  color: white;
 }
 
-.list-heading{
-  font-size:24px;
-  font-weight:500;
-  color:#552a0b;
-  margin:20px;
-
+.list-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #552a0b;
+  margin: 20px;
 }
 
-.law-head2{
-  text-align:center;
-  font-weight:bold;
-  color:#552a0b;
+.law-head2 {
+  text-align: center;
+  font-weight: bold;
+  color: #552a0b;
 }
-
 
 .lawyer-container {
   display: flex;
@@ -671,9 +665,8 @@
   justify-content: space-around;
   gap: 20px;
   margin: 20px;
-  flex-direction:row;
-  text-align:left;
-  
+  flex-direction: row;
+  text-align: left;
 }
 
 .lawyer {
@@ -695,24 +688,28 @@
 
 .lawyer:hover {
   background-color: #552a0b;
-  color:white;
+  color: white;
   .law-button {
-    color:white;
+    color: white;
     background: #552a0b;
-    border:3px solid white;
+    border: 3px solid white;
   }
 }
 
-.lawyer-name{
-  font-weight:bold;
-  margin-top:3px;
+.law-button:active {
+  background: white;
+  color: #552a0b;
+  border: 3px solid #552a0b;
+}
+.lawyer-name {
+  font-weight: bold;
+  margin-top: 3px;
 }
 
-.lawyer-exp{
-  font-size:16px;
-  text-align:left;
-  font-weight:400;
-
+.lawyer-exp {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 400;
 }
 
 .law-button {
@@ -721,8 +718,8 @@
   background: transparent;
   border: 3px solid #552a0b;
   margin: 10px;
-  margin-left:10px;
-  margin-top:-1px;
+  margin-left: 10px;
+  margin-top: -1px;
   font-size: 15px;
   font-weight: 600;
   color: #552a0b;
@@ -730,32 +727,29 @@
   transition: all 0.5s;
   overflow-y: hidden;
   border-radius: 15px;
-  text-align:center;
+  text-align: center;
 }
 
-.lawyer-image{
-  height:120px;
-  width:120px;
-  border-radius:50%;
+.lawyer-image {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
 }
 
-.verify-con{
-  text-align:left;
+.verify-con {
+  text-align: left;
 }
 
-.verified-image{
-  height:20px;
-  width:20px;
-  border-radius:50%;
+.verified-image {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
 
 /* .law-button:hover {
   color: rgb(103, 48, 14);
   background: white;
 } */
-
-
-
 
 .sign-el {
   border-radius: 12px;
@@ -766,7 +760,6 @@
   margin-top: 15px;
   margin-bottom: 10px;
 }
-
 
 .sign-con {
   background-image: url("https://th.bing.com/th/id/R.4a29922ecc034fec8c47f72abc2e3d3a?rik=QZ1MVBejFFcf5w&riu=http%3a%2f%2fwww.solidbackgrounds.com%2fimages%2f2560x1600%2f2560x1600-white-solid-color-background.jpg&ehk=gxDw3Nje94wPA9EVy1hB2RqiK0vN4sOUB2E30hkUzCU%3d&risl=&pid=ImgRaw&r=0");
@@ -780,7 +773,7 @@
 .sign-card-container {
   display: grid;
   place-items: center;
-  text-align:center;
+  text-align: center;
 }
 
 .sign-card {
@@ -827,37 +820,36 @@
 
 /* Page Not Found */
 
-.page-not-found{
-  background-image:url("./assets/Images/error_img_magic.jpg");
-  height:200px;
-  background-size:cover;
-  width:300px;
-  border-radius:50% 45%;
-  margin:10px;
+.page-not-found {
+  background-image: url("./assets/Images/error_img_magic.jpg");
+  height: 200px;
+  background-size: cover;
+  width: 300px;
+  border-radius: 50% 45%;
+  margin: 10px;
 }
 
-.page-not-found-heading{
-  font-size:35px;
-  font-weight:bold;
-  color:#552a0b;
+.page-not-found-heading {
+  font-size: 35px;
+  font-weight: bold;
+  color: #552a0b;
 }
 
-.page-not-span{
-  font-size:35px;
-  font-weight:400;
-  color:#323f4b;
+.page-not-span {
+  font-size: 35px;
+  font-weight: 400;
+  color: #323f4b;
 }
 
-.page-msg{
-  font-size:24px;
-  font-weight:200;
-  color:black;
+.page-msg {
+  font-size: 24px;
+  font-weight: 200;
+  color: black;
 }
 
-.container-card{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-card {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-

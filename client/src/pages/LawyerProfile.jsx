@@ -10,23 +10,21 @@ function LawyerProfile() {
   useEffect(function () {
     async function getLawyer() {
       try {
-        const response = await fetch(`/api/Lawyers/${lawyerid}`, {
+        const response = await fetch(`/api/lawyers/${lawyerid}`, {
           method: "GET",
           headers: { "Content-Type": "application/json" },
         });
         const res = await response.json();
-        lawyerdata = res.data.alllawyers;
-        console.log(lawyerdata);
+        lawyerdata = res.data.lawyerbyid;
         lawyerArray = Object.values(lawyerdata);
         setLawyer([...lawyer, ...lawyerArray]);
-        console.log(lawyer);
       } catch (error) {
         console.log(error);
       }
     }
     getLawyer();
   }, []);
-  console.log(id);
+  // console.log(lawyerid);
   return (
     <div>
       {lawyer.map((lawy) => (

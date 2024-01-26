@@ -6,8 +6,8 @@ function SearchLawyer({ lawyer }) {
   const [search, setSearch] = useState("");
   function handleSearchSumbit(e) {
     e.preventDefault();
-    console.log(search);
-    console.log(lawyer);
+    // console.log(search);
+    // console.log(lawyer);
   }
   return (
     <div className="law-con">
@@ -36,25 +36,24 @@ function SearchLawyer({ lawyer }) {
 
 function LawyerList({ lawyer }) {
   const navigate = useNavigate();
-
+  // console.log(lawyer.length);
+  // console.log(lawyer);
+  // {
+  // lawyer.map((law) => console.log(law._id));
+  // }
   function handleLawyer(e) {
     e.preventDefault();
+    // navigate(`/lawyers/${e.target.value}`);
     console.log(e.target.value);
-    console.log(lawyer);
     navigate(`/lawyers/${e.target.value}`);
   }
   return (
     <div>
       <h2 className="list-heading">List of Lawyers</h2>
       <ul>
-        {lawyer.map((lawyer) => (
+        {lawyer.map((law) => (
           <div className="lawyer-container">
-            <div
-              key={lawyer._id}
-              className="lawyer"
-              onClick={handleLawyer}
-              value={lawyer._id}
-            >
+            <div key={law._id} className="lawyer">
               <div className="verify-con">
                 {/* <div className="d-flex flex-row justify-content-center"> */}
                 <img
@@ -69,18 +68,25 @@ function LawyerList({ lawyer }) {
                 className="lawyer-image"
               />
               <br />
-              <span className="lawyer-name">{lawyer.name} </span>
+              <span className="lawyer-name">{law.name} </span>
+              {/* <span className="lawyer-name">{lawy._id} </span> */}
               <hr></hr>
               <div className="container">
                 <div className="d-flex flex-row mt-2">
                   <span className="lawyer-exp">
-                    Experience: {lawyer.legalExperience}
+                    Experience: {law.legalExperience}
                     <br />
                     Rating:
-                    {lawyer.rating}
+                    {law.rating}
                   </span>
                   <br />
-                  <button className="law-button">Contact Now</button>
+                  <button
+                    className="law-button"
+                    onClick={handleLawyer}
+                    value={law._id}
+                  >
+                    Contact Now
+                  </button>
                 </div>
               </div>
             </div>
@@ -99,15 +105,14 @@ function Lawyers() {
   useEffect(function () {
     async function getLawyer() {
       try {
-        const response = await fetch("/api/Lawyers", {
+        const response = await fetch("/api/lawyers", {
           method: "GET",
           headers: { "Content-Type": "application/json" },
         });
         const res = await response.json();
         lawyerdata = res.data.alllawyers;
         lawyerArray = Object.values(lawyerdata);
-        setLawyer([...lawyer, ...lawyerArray]);
-        console.log(lawyerArray);
+        setLawyer(lawyerArray);
       } catch (error) {
         console.log(error);
       }
