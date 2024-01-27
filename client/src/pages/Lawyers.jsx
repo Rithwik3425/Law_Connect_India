@@ -10,27 +10,30 @@ function SearchLawyer({ lawyer }) {
     // console.log(lawyer);
   }
   return (
-    <div className="law-con">
-      <h2 className="law-head2">Search Lawyer</h2>
-      <form onSubmit={handleSearchSumbit}>
-        <input
-          type="text"
-          placeholder="Search Lawyer"
-          className="search-law-el"
-          value={search}
-          onChange={(e) => {
-            setSearch(e.target.value);
-          }}
-        />
-        <button
-          className="search-button"
-          type="submit"
-          onSubmit={handleSearchSumbit}
-        >
-          Search
-        </button>
-      </form>
-    </div>
+    <>
+      <button></button>
+      <div className="law-con">
+        <h2 className="law-head2">Search Lawyer</h2>
+        <form onSubmit={handleSearchSumbit}>
+          <input
+            type="text"
+            placeholder="Search Lawyer"
+            className="search-law-el"
+            value={search}
+            onChange={(e) => {
+              setSearch(e.target.value);
+            }}
+          />
+          <button
+            className="search-button"
+            type="submit"
+            onSubmit={handleSearchSumbit}
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </>
   );
 }
 
@@ -52,41 +55,40 @@ function LawyerList({ lawyer }) {
       <h2 className="list-heading">List of Lawyers</h2>
       <div className="lawyer-list">
         {lawyer.map((law) => (
-
           <div key={law._id} className="lawyer">
-                    <div className="verify-con">
-                      {/* <div className="d-flex flex-row justify-content-center"> */}
-                        <img
-                          src="https://th.bing.com/th/id/OIP.rIpPnTCjSMIu3As7enoaAgAAAA?rs=1&pid=ImgDetMain"
-                          className="verified-image"
-                        />
-                      {/* </div> */}
-                    </div>
+            <div className="verify-con">
+              {/* <div className="d-flex flex-row justify-content-center"> */}
+              <img
+                src="https://th.bing.com/th/id/OIP.rIpPnTCjSMIu3As7enoaAgAAAA?rs=1&pid=ImgDetMain"
+                className="verified-image"
+              />
+              {/* </div> */}
+            </div>
 
-                        <img
-                          src="https://img.freepik.com/premium-vector/lawyer-avatar-vector-illustration_822301-12.jpg"
-                          className="lawyer-image"
-                        />
-                    <br />
-                        <span className="lawyer-name">{law.name} </span>
-                        {/* <span className="lawyer-name">{lawy._id} </span> */}
-                    <hr></hr>
-                    <div className="container">
-                      <div className="d-flex flex-row mt-2">
-                        <span className="lawyer-exp">
-                    Experience: {law.legalExperience}
-                    <br />
-                    Rating:
-                    {law.rating}
-                  </span>
+            <img
+              src="https://img.freepik.com/premium-vector/lawyer-avatar-vector-illustration_822301-12.jpg"
+              className="lawyer-image"
+            />
+            <br />
+            <span className="lawyer-name">{law.name} </span>
+            {/* <span className="lawyer-name">{lawy._id} </span> */}
+            <hr></hr>
+            <div className="container">
+              <div className="d-flex flex-row mt-2">
+                <span className="lawyer-exp">
+                  Experience: {law.legalExperience}
                   <br />
-                  <button
-                    className="law-button"
-                    onClick={handleLawyer}
-                    value={law._id}
-                  >
-                    Contact Now
-                  </button>
+                  Rating:
+                  {law.rating}
+                </span>
+                <br />
+                <button
+                  className="law-button"
+                  onClick={handleLawyer}
+                  value={law._id}
+                >
+                  Contact Now
+                </button>
                 {/* </div> */}
               </div>
             </div>

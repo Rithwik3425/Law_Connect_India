@@ -9,7 +9,7 @@ function LawyerList({ lawyer }) {
   return (
     <div>
       <h2 className="list-heading">List of Lawyers</h2>
-      <ul>
+      <div className="lawyer-list">
         {lawyer.map((law) => (
           <div className="lawyer-container">
             <div key={law._id} className="lawyer">
@@ -48,7 +48,7 @@ function LawyerList({ lawyer }) {
             </div>
           </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
