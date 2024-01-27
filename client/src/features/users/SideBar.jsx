@@ -6,20 +6,30 @@ function SideBar({ page, setpage }) {
     setpage(e.target.value);
   }
   return (
-    <div className="sidebar">
-      <button value={"meetings"} onClick={handlePageChange}>
-        Meetings
-      </button>
-      <button value={"payment"} onClick={handlePageChange}>
-        Payment
-      </button>
-      <button value={"reviews"} onClick={handlePageChange}>
-        Reviews
-      </button>
-      <button value={"profile"} onClick={handlePageChange}>
-        My Profile
-      </button>
-      <button>Log out</button>
+    <div className="sidebar2">
+
+      <div>
+      <div className="user-logo">
+        {/* <img src="./LawConnectIndia.jpeg" className="user-logo"
+        /> */}
+      </div>
+
+      <div className="btncon">
+        <button value={"meetings"} onClick={handlePageChange} className="sidebtn" >
+          Meetings
+        </button>
+        <button value={"payment"} onClick={handlePageChange} className="sidebtn">
+          Payment
+        </button>
+        <button value={"reviews"} onClick={handlePageChange} className="sidebtn">
+          Reviews
+        </button>
+        <button value={"profile"} onClick={handlePageChange} className="sidebtn">
+          My Profile
+        </button>
+      </div>
+      </div>
+      <button className="sidebtn">Log out</button>
     </div>
   );
 }
