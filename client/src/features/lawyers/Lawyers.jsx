@@ -12,7 +12,7 @@ function SearchLawyer({ lawyer }) {
   }
   return (
     <div className="law-con">
-      <h2 className="law-head2">Search Lawyer</h2>
+      {/* <h2 className="law-head2">Search Lawyer</h2> */}
       <form onSubmit={handleSearchSumbit}>
         <input
           type="text"
@@ -23,13 +23,13 @@ function SearchLawyer({ lawyer }) {
             setSearch(e.target.value);
           }}
         />
-        <button
+        {/* <button
           className="search-button"
           type="submit"
           onSubmit={handleSearchSumbit}
         >
           Search
-        </button>
+        </button> */}
       </form>
     </div>
   );
