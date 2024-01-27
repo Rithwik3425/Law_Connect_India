@@ -616,7 +616,7 @@
   width: 350px;
   color: #3d2819;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: background-color 0.3s ease-in-out;
   overflow-y: hidden;
 }

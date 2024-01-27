@@ -62,7 +62,7 @@ function ContactUs_Section() {
         <div className="p-5 container">
 <div className="d-flex flex-column">
         <div className="d-flex flex-row">
-          <img src="https://i.pinimg.com/564x/d4/ef/2d/d4ef2dc3bfbffda3503f2e7674d5f6b7.jpg" className="contact-icon"
+          <img src="https://i.pinimg.com/564x/e1/48/85/e14885cbd5c5abfa52ed4d811d18ebd9.jpg" className="contact-icon"
           />
           <div className="details-con">
             <h6 className="details-con-head">Phone</h6>
@@ -73,7 +73,7 @@ function ContactUs_Section() {
 
 
         <div className="d-flex flex-row">
-          <img src="https://i.pinimg.com/564x/19/4c/4a/194c4a81c031413e0958fc08bb8d7c44.jpg" className="contact-icon"
+          <img src="https://i.pinimg.com/736x/a6/35/04/a63504cbf99e8a11c54bda95b1accd09.jpg" className="contact-icon"
           />
           <div className="details-con">
             <h6 className="details-con-head">Email</h6>
@@ -84,7 +84,7 @@ function ContactUs_Section() {
 
 
         <div className="d-flex flex-row">
-          <img src="https://i.pinimg.com/564x/1f/6a/70/1f6a700bdaa75c5eca2d016c870e7994.jpg" className="contact-icon"
+          <img src="https://i.pinimg.com/736x/dc/77/b9/dc77b92cdd0486dda460060463f574a1.jpg" className="contact-icon"
           />
           <div className="details-con">
             <h6 className="details-con-head">Location</h6>
