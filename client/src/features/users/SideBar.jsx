@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 function SideBar({ page, setpage }) {
   function handlePageChange(e) {
     e.preventDefault();
+    e.style["background-color"] = "red";
     setpage(e.target.value);
   }
   return (
