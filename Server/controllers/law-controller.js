@@ -1,6 +1,6 @@
-import express from "express";
-import Lawyer from "./../models/lawyers-model.js";
-import {APIFeatures} from "./../utils/APIfeatures.js";
+const express=require('express');
+const Lawyer =require('../models/lawyers-model.js')
+const APIFeatures=require( "./../utils/APIfeatures.js");
 const getLawyers = async (req, res) => {
   try {
     const features= new APIFeatures(Lawyer.find(),req.query).filter().sort().limitingfeilds().paginate();
@@ -108,7 +108,7 @@ const deleteLawyer = async (req, res) => {
   }
 };
 
-export {
+module.exports={
   getLawyers,
   createLawyer,
   getLawyer,

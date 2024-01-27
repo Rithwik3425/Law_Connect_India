@@ -1,10 +1,10 @@
-import express from "express";
-import mongoose from "mongoose";
-import dotenv from "dotenv";
-import morgan from "morgan";
-//import userRouter from "./routes/user.route.js";
-//import authRouter from "./routes/auth.route.js";
-import LawyerRouter from "./routes/lawyer.route.js";
+const express=require('express');
+const mongoose=require('mongoose');
+const dotenv=require('dotenv');
+const morgan=require('morgan');
+const userRouter =require( "./routes/user.route.js");
+//const  authRouter=require( "./routes/auth.route.js");
+const LawyerRouter=require('./routes/lawyer.route');
 
 
 dotenv.config({ path: "./config.env" });
@@ -32,7 +32,7 @@ if (process.env.NODE_ENV === 'development') {
 
 
 
-//app.use("/api/user", userRouter);
+app.use("/api/user", userRouter);
 //app.use("/api/auth", authRouter);
 app.use("/api/Lawyers", LawyerRouter);
 

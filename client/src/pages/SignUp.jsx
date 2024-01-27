@@ -15,7 +15,7 @@ function SignUp() {
     try {
       e.preventDefault();
       setLoading(true);
-      const response = await fetch("/api/auth/signup", {
+      const response = await fetch("/api/user/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formdata),
@@ -42,7 +42,7 @@ function SignUp() {
             <input
               type="text"
               placeholder="username"
-              id="username"
+              id="name"
               className="sign-el"
               onChange={handleChange}
             />
@@ -57,6 +57,13 @@ function SignUp() {
               type="password"
               placeholder="password"
               id="password"
+              className="sign-el"
+              onChange={handleChange}
+            />
+            <input
+              type="password"
+              placeholder="confirm password"
+              id="passwConfirm"
               className="sign-el"
               onChange={handleChange}
             />

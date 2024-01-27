@@ -411,9 +411,8 @@
   color: #3d2819;
 }
 
-
 .contactuscontainer {
-  background-color:#dff2ff69;
+  background-color: #dff2ff69;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -456,7 +455,7 @@
 
 .send-button {
   color: white;
-  background-color:#75c6fc;
+  background-color: #75c6fc;
   width: 450px;
   border-style: none;
   border-radius: 10px;
@@ -593,13 +592,13 @@
   font-weight: 500;
   color: #552a0b;
   margin: 20px;
-  text-align:center;
+  text-align: center;
 }
 
-.lawyer-page{
-  background-color:#dff2ff69;
-  height:100vh;
-  width:100vw;
+.lawyer-page {
+  background-color: #dff2ff69;
+  height: 100vh;
+  width: 100vw;
 }
 
 .law-head2 {
@@ -621,11 +620,11 @@
   overflow-y: hidden;
 }
 
-.lawyer-list{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap:60px;
-  padding:25px;
+.lawyer-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 60px;
+  padding: 25px;
 }
 
 .law-button {
@@ -646,16 +645,15 @@
   text-align: center;
 }
 
-.lawyer-container{
+.lawyer-container {
   box-shadow: 10px 10px 10px 10px rgba(97, 97, 97, 5);
 }
 
-.law-button:hover{
-  background-color:white;
-  color:#552a0b;
-  border:3px solid #552a0b;
+.law-button:hover {
+  background-color: white;
+  color: #552a0b;
+  border: 3px solid #552a0b;
 }
-
 
 .law-button:active {
   background: white;
@@ -674,8 +672,6 @@
   font-weight: 400;
 }
 
-
-
 .lawyer-image {
   height: 120px;
   width: 120px;
@@ -689,7 +685,7 @@
 .verified-image {
   height: 20px;
   width: 20px;
-  margin:10px;
+  margin: 10px;
   border-radius: 50%;
 }
 
@@ -796,99 +792,97 @@
   align-items: center;
 }
 
-
 /* Lawyer profile*/
 
-.lawyer-about-con2{
-  background-color:#dff2ff69;
-  height:100vh;
-  width:100vw;
+.lawyer-about-con2 {
+  background-color: #dff2ff69;
+  height: 100vh;
+  width: 100vw;
 }
 
-.lawyer-profile-con{
-  text-align:center;
-  width:60%;
-  padding:10px;
+.lawyer-profile-con {
+  text-align: center;
+  width: 60%;
+  padding: 10px;
 }
 
-.lawyer-name2{
-  color:#552a0b;
-  font-weight:bold;
+.lawyer-name2 {
+  color: #552a0b;
+  font-weight: bold;
 }
 
-.lawyer-exp2{
-  color:#552a0b;
-  font-weight:500;
-  font-size:18px;
-  text-align:center;
+.lawyer-exp2 {
+  color: #552a0b;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
 }
 
 .vertical-line {
-  border-left: 1px solid #552a0b; 
+  border-left: 1px solid #552a0b;
   height: 20px;
-  margin:10px;
-  margin-top:-0.3px;
+  margin: 10px;
+  margin-top: -0.3px;
 }
 
-.lsp-con{
-  border-radius:15px;
-  background-color:white;
-  margin:20px;
-  padding:10px;
+.lsp-con {
+  border-radius: 15px;
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
 }
 
-.lawyer-pg-con{
-  border-radius:15px;
-  background-color:white;
-  margin:20px;
-  padding:10px;
-  text-align:left;
+.lawyer-pg-con {
+  border-radius: 15px;
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+  text-align: left;
 }
 
-.lawyer-about-heading{
-  color:#552a0b;
-  font-weight:590;
-  text-align:center;
+.lawyer-about-heading {
+  color: #552a0b;
+  font-weight: 590;
+  text-align: center;
 }
 
-.lawyer-loc{
-  color:#552a0b;
-  font-size:15px;
-  padding:10px;
-  font-weight:300;
+.lawyer-loc {
+  color: #552a0b;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 300;
 }
 
-.lawyer-span{
-  font-weight:570;
-  font-size:18px;
-  color:black;
+.lawyer-span {
+  font-weight: 570;
+  font-size: 18px;
+  color: black;
 }
-
 
 /*User dashboard*/
 
-.sidebar{
-  display:flex;
+.sidebar {
+  display: flex;
   background: rgb(240, 240, 240);
 }
 
-.sidebar2{
+.sidebar2 {
   width: 20%;
   height: 100vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   background: white;
 }
 
-.btncon{
+.btncon {
   margin: 5vw;
   display: flex;
   flex-direction: column;
 }
-.user-logo{
-  height:60px;
+.user-logo {
+  height: 60px;
   width: auto;
   background: url(./assets/Images/LawConnectIndia-logos.jpeg);
   background-position: center;
@@ -896,7 +890,7 @@
   background-size: cover;
 }
 
-.sidebtn{
+.sidebtn {
   height: 60px;
   width: 200px;
   font-size: 24px;
@@ -909,7 +903,7 @@
   transition: all 0.5s;
 }
 
-.sidebtn:hover{
+.sidebtn:hover {
   background: #40a4e7;
   color: white;
 }

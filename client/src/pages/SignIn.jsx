@@ -15,7 +15,7 @@ function SignIn() {
     try {
       e.preventDefault();
       setLoading(true);
-      const response = await fetch("/api/auth/signin", {
+      const response = await fetch("/api/user/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formdata),
@@ -27,7 +27,7 @@ function SignIn() {
         return;
       }
       setLoading(false);
-      navigate("/");
+      navigate("/user/dashboard");
     } catch (error) {
       setLoading(false);
       setError(error.message);
@@ -35,37 +35,37 @@ function SignIn() {
   }
   return (
     <div className="sign-con">
-    <div className="sign-card-container">
-      <div className="sign-card">
-        <h1>Sign in</h1>
-        <form onSubmit={handleSubmit}>
-          <input
-            type="email"
-            placeholder="email"
-            id="email"
-            className="sign-el"
-            onChange={handleChange}
-          />
-          <input
-            type="password"
-            placeholder="password"
-            id="password"
-            className="sign-el"
-            onChange={handleChange}
-          />
-          <br />
-          <button className="sign-btn" disabled={loading}>
-            {loading ? `loading` : `Sign in`}
-          </button>
-        </form>
-        <p>Don't have an account?</p>
-        <Link to={"/signup"}>
-          <span>Sign up</span>
-        </Link>
-        {error && <p className="text-red-500 mt-3">{error}</p>}
+      <div className="sign-card-container">
+        <div className="sign-card">
+          <h1>Sign in</h1>
+          <form onSubmit={handleSubmit}>
+            <input
+              type="email"
+              placeholder="email"
+              id="email"
+              className="sign-el"
+              onChange={handleChange}
+            />
+            <input
+              type="password"
+              placeholder="password"
+              id="password"
+              className="sign-el"
+              onChange={handleChange}
+            />
+            <br />
+            <button className="sign-btn" disabled={loading}>
+              {loading ? `loading` : `Sign in`}
+            </button>
+          </form>
+          <p>Don't have an account?</p>
+          <Link to={"/signup"}>
+            <span>Sign up</span>
+          </Link>
+          {error && <p className="text-red-500 mt-3">{error}</p>}
+        </div>
       </div>
     </div>
-  </div>
   );
 }
 
