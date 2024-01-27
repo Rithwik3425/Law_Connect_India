@@ -1,5 +1,4 @@
-import mongoose from 'mongoose';
-
+const mongoose=require('mongoose');
 const LawSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -12,7 +11,7 @@ const LawSchema = new mongoose.Schema({
         trim: true,
     },
     legalExperience: {
-        type: String,
+        type: Number,
         required: [true, 'Experience must be provided'],
     },
     practiceArea: [String],
@@ -34,4 +33,4 @@ const LawSchema = new mongoose.Schema({
 
 const Lawyer = mongoose.model('Lawyers', LawSchema);
 
-export default Lawyer;
+module.exports=Lawyer;

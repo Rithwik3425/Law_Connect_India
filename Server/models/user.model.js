@@ -5,8 +5,7 @@ const validator=require('validator');
 const userSchema= new mongoose.Schema({
   name:{
     type:String,
-    required:[true,'please provide a name'],
-    trim:true,
+    required:[true,'please provide a name']
   },
   email:{
     type:String,
@@ -15,13 +14,14 @@ const userSchema= new mongoose.Schema({
     lowercase:true,
     validator:[validator.isEmail,'please enter a valid email id']
   },
+  
   password:{
     type:String,
     required:[true,'please provide the password'],
     minlenght:8,
     trim :true,
   },
-  passwordConfm:{
+  passwConfirm:{
     type:String,
     required:[true,'Please enter  a password once again'],
     validator:{
@@ -33,17 +33,14 @@ const userSchema= new mongoose.Schema({
 })
 
  
-UserSchema.pre('save',async function(next){
-
+userSchema.pre('save',async function(next){
 if(!this.isModified('password')) return next();
-
 this.password=await bcrypt.hash(this.password,12);
-
-this.passwordConfirm=undefined;
+this.passwConfirm=undefined;
 next();
 })
 
-UserSchema.methods.corrpassw=async function(clientpassw,userpassw){
+userSchema.methods.currpassw=async function(clientpassw,userpassw){
   return await bcrypt.compare(clientpassw,userpassw);
 }
 const UserModel=new mongoose.model('User',userSchema);

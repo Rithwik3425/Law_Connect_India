@@ -42,4 +42,4 @@
       return this;
     }
   }
-export {APIFeatures};
+  module.exports=APIFeatures;
