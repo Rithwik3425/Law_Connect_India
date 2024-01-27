@@ -1,11 +1,8 @@
-import { useNavigate } from "react-router-dom";
+import { useContext } from "react";
+import { LawyerContext } from "../../contexts/LawyerContext";
 
-function LawyerList({ lawyer }) {
-  const navigate = useNavigate();
-  function handleLawyer(e) {
-    e.preventDefault();
-    navigate(`/lawyers/${e.target.value}`);
-  }
+function LawyerList() {
+  const { lawyer, handleLawyer } = useContext(LawyerContext);
   return (
     <div className="lawyer-page">
       <h2 className="list-heading">List of Lawyers</h2>
@@ -13,24 +10,21 @@ function LawyerList({ lawyer }) {
         {lawyer.map((law) => (
           <div className="lawyer-conatiner">
             <div key={law._id} className="lawyer">
-
-            
-
               <img
                 src="https://img.freepik.com/premium-vector/lawyer-avatar-vector-illustration_822301-12.jpg"
                 className="lawyer-image"
               />
               <br />
 
-            <div className="d-flex flex-row justify-content-center">
-              <span className="lawyer-name">{law.name} </span>
-              <div className="verify-con">
-                <img
-                  src="https://www.citypng.com/public/uploads/preview/hd-green-round-tick-check-mark-vector-icon-png-11640782287qc29zlw0at.png"
-                  className="verified-image"
-                />
-            </div>
-            </div>
+              <div className="d-flex flex-row justify-content-center">
+                <span className="lawyer-name">{law.name} </span>
+                <div className="verify-con">
+                  <img
+                    src="https://www.citypng.com/public/uploads/preview/hd-green-round-tick-check-mark-vector-icon-png-11640782287qc29zlw0at.png"
+                    className="verified-image"
+                  />
+                </div>
+              </div>
 
               <hr></hr>
               <div className="container">
