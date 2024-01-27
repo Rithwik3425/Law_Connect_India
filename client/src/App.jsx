@@ -10,10 +10,7 @@ import AboutUs_Section from "./components/AboutUs_Section";
 import Collab_Section from "./components/Collab_Section";
 import PageNav from "./components/PageNav";
 import ContactUs_Section from "./components/ContactUs_Section";
-import Dashboard from "./features/lawyers/dashboard";
-import Meeting_Section from "./components/Meeting_Section";
-import Payment_Section from "./components/Payment_Section";
-import My_Profile_Section from "./components/My_Profile_Section";
+import Dashboard from "./features/users/Dashboard";
 
 function App() {
   return (
@@ -50,7 +47,7 @@ function App() {
       <Route path="/signin" element={<SignIn />} />
       <Route path="/lawyers" element={<Lawyers />} />
       <Route path="/lawyers/:lawyerid" element={<LawyerProfile />} />
-      <Route path="/lawyers/dashboard" element={<Dashboard />} />
+      <Route path="/user/dashboard" element={<Dashboard />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
