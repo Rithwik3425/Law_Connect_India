@@ -11,6 +11,9 @@ import Collab_Section from "./components/Collab_Section";
 import PageNav from "./components/PageNav";
 import ContactUs_Section from "./components/ContactUs_Section";
 import Dashboard from "./features/lawyers/dashboard";
+import Meeting_Section from "./components/Meeting_Section";
+import Payment_Section from "./components/Payment_Section";
+import My_Profile_Section from "./components/My_Profile_Section";
 
 function App() {
   return (
