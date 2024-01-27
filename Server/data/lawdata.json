@@ -2,6 +2,7 @@
     {
         "name": "Advocate Kavya Sharma",
         "officeLocation": "225 Rajaji Nagar, Bangalore",
+        "Location":"Bangalore",
         "legalExperience": 28,
         "practiceArea": [
             "Anticipatory Bail",
@@ -45,12 +46,14 @@
             "Telugu"
         ],
         "rating": 4.8,
+        "price":600,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 23
     },
     {
         "name": "Advocate Sunil Verma",
         "officeLocation": "Bandra West, Mumbai, Maharashtra",
+        "Location":"Maharashtra",
         "legalExperience": 25,
         "practiceArea": [
             "Anticipatory Bail",
@@ -79,12 +82,14 @@
             "Hindi"
         ],
         "rating": 4.7,
+        "price":600,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount": 34
     },
     {
         "name": "Advocate Siddharth Kapoor",
         "officeLocation": "Sector-56, Gurgaon, Haryana",
+        "Location":"Haryana",
         "legalExperience": 32,
         "practiceArea": [
             "Anticipatory Bail",
@@ -119,12 +124,14 @@
             "Punjabi"
         ],
         "rating": 4.7,
+        "price":600,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount":40
     },
     {
         "name": "Advocate Neha Sharma",
         "officeLocation": "Vasant Vihar, Delhi",
+        "Location":"Delhi",
         "legalExperience": 18,
         "practiceArea": [
             "Arbitration",
@@ -146,12 +153,14 @@
             "Hindi"
         ],
         "rating": 4.8,
+        "price":600,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 27
     },
     {
         "name": "Advocate Sameer Joshi",
         "officeLocation": "Aundh, Pune",
+        "Location":"Pune",
         "legalExperience": 16,
         "practiceArea": [
             "Anticipatory Bail",
@@ -199,12 +208,14 @@
             "Hindi"
         ],
         "rating": 4.7,
+        "price":600,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount": 34
     },
     {
         "name": "Advocate Rajat Kapoor",
         "officeLocation": "Defence Colony, Delhi",
+        "Location":"Delhi",
         "legalExperience": 28,
         "practiceArea": [
             "Anticipatory Bail",
@@ -243,12 +254,14 @@
             "Hindi"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount":40
     },
     {
         "name": "Advocate Anika Verma",
         "officeLocation": "Kalkaji, Delhi",
+        "Location":"Delhi",
         "legalExperience": 20,
         "practiceArea": [
             "Anticipatory Bail",
@@ -269,12 +282,14 @@
             "Punjabi"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 17
     },
     {
         "name": "Advocate Rajat Verma",
         "officeLocation": "Vaishali, Ghaziabad",
+        "Location":"Ghaziabad",
         "legalExperience": 9,
         "practiceArea": [
             "Anticipatory Bail",
@@ -295,12 +310,14 @@
             "Hindi"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount": 22
     },
     {
         "name": "Advocate Vikrant Singhania",
         "officeLocation": "Sector 21C, Faridabad",
+        "Location":"Faridabad",
         "legalExperience": 11,
         "practiceArea": [
             "Anticipatory Bail",
@@ -331,12 +348,14 @@
             "Punjabi"
         ],
         "rating": 4.8,
+        "price":600,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount": 30
     },
     {
         "name": "Advocate Rahul Sharma",
         "officeLocation": "Sector-6, Dwarka, Delhi",
+        "Location":"Delhi",
         "legalExperience": 23,
         "practiceArea": [
             "Anticipatory Bail",
@@ -365,12 +384,14 @@
             "Hindi"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 37
     },
     {
         "name": "Advocate Harish Patel",
         "officeLocation": "Colaba, Mumbai",
+        "Location":"Mumbai",
         "legalExperience": 13,
         "practiceArea": [
             "Anticipatory Bail",
@@ -393,12 +414,14 @@
             "Marathi"
         ],
         "rating": 4.7,
+        "price":600,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount": 6
     },
     {
         "name": "Advocate Anil Kapoor",
         "officeLocation": "Sector-10, Dwarka, Delhi",
+        "Location":"Delhi",
         "legalExperience": 25,
         "practiceArea": [
             "Armed Forces Tribunal",
@@ -415,12 +438,14 @@
             "Urdu"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount": 12
     },
     {
         "name": "Advocate Rohit Kapoor",
         "officeLocation": "Saket, Delhi",
+        "Location":"Delhi",
         "legalExperience": 11,
         "practiceArea": [
             "Arbitration",
@@ -448,12 +473,14 @@
             "Hindi"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 44
     },
     {
         "name": "Advocate Simran Kaur",
         "officeLocation": "Mall Road, Amritsar",
+        "Location":"Amritsar",
         "legalExperience": 15,
         "practiceArea": [
             "Anticipatory Bail",
@@ -478,12 +505,14 @@
             "Punjabi"
         ],
         "rating": 4.8,
+        "price":600,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount": 42
     },
     {
         "name": "Advocate Arjun Kapoor",
         "officeLocation": "Kanke Road, Ranchi",
+        "Location":"Ranchi",
         "legalExperience": 23,
         "practiceArea": [
             "Anticipatory Bail",
@@ -534,12 +563,14 @@
             "Hindi"
         ],
         "rating": 4.8,
+        "price":600,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount": 33
     },
     {
         "name": "Advocate Priyanka Sen",
         "officeLocation": "Salt Lake City, Kolkata",
+        "Location":"Kolkata",
         "legalExperience": 21,
         "practiceArea": [
             "Cheque Bounce",
@@ -559,12 +590,14 @@
             "Bengali"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 29
     },
     {
         "name": "Advocate Raghav Chawla",
         "officeLocation": "Dwarka, Delhi",
+        "Location":"Delhi",
         "legalExperience": 7,
         "practiceArea": [
             "Anticipatory Bail",
@@ -595,12 +628,14 @@
             "Hindi"
         ],
         "rating": 4.8,
+        "price":600,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount": 38
     },
     {
         "name": "Advocate Aniket Desai",
         "officeLocation": "Shivaji Nagar, Nagpur",
+        "Location":"Nagpur",
         "legalExperience": 17,
         "practiceArea": [
             "Arbitration",
@@ -629,12 +664,14 @@
             "Marathi"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount": 8
     },
     {
         "name": "Advocate Harbhajan Singh",
         "officeLocation": "Model Town, Patiala",
+        "Location":"Patiala",
         "legalExperience": 42,
         "practiceArea": [
             "Anticipatory Bail",
@@ -685,12 +722,14 @@
             "Punjabi"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 40
     },
     {
         "name": "Advocate Sneha Dasgupta",
         "officeLocation": "Salt Lake City, Kolkata",
+        "Location":"Kolkata",
         "legalExperience": 13,
         "practiceArea": [
             "Anticipatory Bail",
@@ -715,12 +754,14 @@
             "Bengali"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount":23
     },
     {
         "name": "Advocate Siddharth Reddy",
         "officeLocation": "Koramangala, Bangalore",
+        "Location":"Bangalore",
         "legalExperience": 11,
         "practiceArea": [
             "Arbitration",
@@ -750,12 +791,14 @@
             "Kannada"
         ],
         "rating": 4.8,
+        "price":600,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount": 22
     },
     {
         "name": "Advocate Faisal Khan",
         "officeLocation": "Guruvayur, Thrissur",
+        "Location":"Thrissur",
         "legalExperience": 23,
         "practiceArea": [
             "Anticipatory Bail",
@@ -808,12 +851,14 @@
             "Malayalam"
         ],
         "rating": 4.9,
+        "price":600,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 12
     },
     {
         "name": "Advocate Vikrant Choudhary",
         "officeLocation": "Kharghar, Navi Mumbai",
+        "Location":"Navi Mumbai",
         "legalExperience": "10 years",
         "practiceArea": [
             "Anticipatory Bail",
@@ -865,12 +910,14 @@
             "Marathi"
         ],
         "rating": 4.7,
+        "price":600,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount": 32
     },
     {
         "name": "Advocate Neha Kapoor",
         "officeLocation": "Sector 14, Gurgaon",
+        "Location":"Gurgaon",
         "legalExperience": 11,
         "practiceArea": [
             "Anticipatory Bail",
@@ -889,12 +936,14 @@
             "Hindi"
         ],
         "rating": 4.3,
+        "price":500,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount": 35
     },
     {
         "name": "Advocate Niharika Rao",
         "officeLocation": "Gajuwaka, Visakhapatnam",
+        "Location":"Visakhapatnam",
         "legalExperience": 12,
         "practiceArea": [
             "Anticipatory Bail",
@@ -946,12 +995,14 @@
             "Telugu"
         ],
         "rating": 4.8,
+        "price":600,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 10
     },
     {
         "name": "Advocate Akash Verma",
         "officeLocation": "Vijayawada, Guntur",
+        "Location":"Guntur",
         "legalExperience": 8,
         "practiceArea": [
             "Anticipatory Bail",
@@ -1001,12 +1052,14 @@
             "English"
         ],
         "rating": 4.8,
+        "price":600,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount": 20
     },
     {
         "name": "Advocate Ramesh Gupta",
         "officeLocation": "Begumpet, Hyderabad",
+        "Location":"Hyderabad",
         "legalExperience": 26,
         "practiceArea": [
             "Arbitration",
@@ -1036,12 +1089,14 @@
             "Telugu"
         ],
         "rating": 4.7,
+        "price":600,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount": 16
     },
     {
         "name": "Advocate Vikas Malhotra",
         "officeLocation": "Sector 15-A, Chandigarh",
+        "Location":"Chandigarh",
         "legalExperience":15,
         "practiceArea": [
             "Anticipatory Bail",
@@ -1071,12 +1126,14 @@
             "Punjabi"
         ],
         "rating": 4.4,
+        "price":500,
         "description": "Experience the expertise of a seasoned legal professional dedicated to delivering top-notch legal solutions. Our commitment to excellence and a proven track record ensures personalized and effective counsel for individuals and businesses. Trust in our team to navigate legal complexities, protect your rights, and achieve favorable outcomes for your legal matters.",
         "userRatingsCount": 35
     },
     {
         "name": "Advocate Sneha Nair",
         "officeLocation": "Mylapore, Chennai",
+        "Location":"Chennai",
         "legalExperience": 5,
         "practiceArea": [
             "Bankruptcy / Insolvency",
@@ -1096,12 +1153,14 @@
             "Tamil"
         ],
         "rating": 4.5,
+        "price":500,
         "description": "Discover the excellence of a leading legal team committed to delivering high-quality services. With a strong focus on integrity and client satisfaction, our seasoned attorneys provide strategic representation for a diverse range of legal matters. Choose us for sound advice, personalized solutions, and reliable advocacy in safeguarding your rights.",
         "userRatingsCount": 45
     },
     {
         "name": "Advocate Vikram Reddy",
         "officeLocation": "Koramangala, Bangalore",
+        "Location":"Bangalore",
         "legalExperience": 9,
         "practiceArea": [
             "Bankruptcy / Insolvency",
@@ -1120,6 +1179,7 @@
             "Telugu"
         ],
         "rating": 4.6,
+        "price":600,
         "description": "Your trusted partner for expert legal guidance. Our dedicated team of attorneys is committed to delivering comprehensive legal solutions with a focus on professionalism and client satisfaction. When you choose us, you choose a reliable advocate dedicated to protecting your rights and achieving positive outcomes for your legal concerns.",
         "userRatingsCount": 20
     }
