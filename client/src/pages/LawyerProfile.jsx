@@ -27,9 +27,20 @@ function LawyerProfile() {
   // console.log(lawyerid);
   return (
     <div>
-      {lawyer.map((lawy) => (
-        <div key={lawy._id}>{lawy}</div>
-      ))}
+      <h3>{lawyer[1]}</h3>
+      <p>{lawyer[3]}</p>
+      <p>{lawyer[6]}</p>
+      <p>{lawyer[7]} Reviews</p>
+      <div>
+        About
+        <div>{lawyer[2]}</div>
+        <div>{lawyer[8]}</div>
+        <div>
+          Area of expertise
+          <p>{lawyer[4].join(" | ")}</p>
+        </div>
+        <p>Fluent in {lawyer[5].join(", ")}</p>
+      </div>
     </div>
   );
 }
