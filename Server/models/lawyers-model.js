@@ -10,9 +10,18 @@ const LawSchema = new mongoose.Schema({
         required: [true, 'A Office Location is Used'],
         trim: true,
     },
+    Location: {
+        type: String,
+        required: [true, 'A  Location is Used'],
+        trim: true,
+    },
     legalExperience: {
         type: Number,
         required: [true, 'Experience must be provided'],
+    },
+    price:{
+        type:Number,
+        required:[true,'Price must be provided']
     },
     practiceArea: [String],
     languages: [String],
