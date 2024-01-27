@@ -651,6 +651,7 @@
   font-weight: 500;
   color: #552a0b;
   margin: 20px;
+  text-align:center;
 }
 
 .law-head2 {
@@ -659,21 +660,9 @@
   color: #552a0b;
 }
 
-.lawyer-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 20px;
-  margin: 20px;
-  flex-direction: row;
-  text-align: left;
-}
-
 .lawyer {
   font-size: 20px;
   font-weight: 300;
-  margin: 10px;
-  padding: 20px;
   text-align: center;
   height: 300px;
   width: 350px;
@@ -686,32 +675,13 @@
   overflow-y: hidden;
 }
 
-.lawyer:hover {
-  background-color: #552a0b;
-  color: white;
-  .law-button {
-    color: white;
-    background: #552a0b;
-    border: 3px solid white;
-  }
+.lawyer-list{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:60px;
+  padding:25px;
+ 
 }
-
-.law-button:active {
-  background: white;
-  color: #552a0b;
-  border: 3px solid #552a0b;
-}
-.lawyer-name {
-  font-weight: bold;
-  margin-top: 3px;
-}
-
-.lawyer-exp {
-  font-size: 16px;
-  text-align: left;
-  font-weight: 400;
-}
-
 .law-button {
   width: 125px;
   height: 50px;
@@ -730,6 +700,41 @@
   text-align: center;
 }
 
+.lawyer:hover {
+  background-color: #552a0b;
+  color: white;
+
+.law-button {
+  color: white;
+  background: #552a0b;
+  border: 3px solid white;
+}
+}
+
+.law-button:hover{
+  background-color:white;
+  color:#dcb69a;
+}
+
+
+.law-button:active {
+  background: white;
+  color: #552a0b;
+  border: 3px solid #552a0b;
+}
+.lawyer-name {
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+.lawyer-exp {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 400;
+}
+
+
+
 .lawyer-image {
   height: 120px;
   width: 120px;
@@ -745,11 +750,6 @@
   width: 20px;
   border-radius: 50%;
 }
-
-/* .law-button:hover {
-  color: rgb(103, 48, 14);
-  background: white;
-} */
 
 .sign-el {
   border-radius: 12px;
@@ -853,3 +853,21 @@
   justify-content: center;
   align-items: center;
 }
+
+
+/* Lawyer profile*/
+
+
+.lawyer-profile-con{
+  text-align:center;
+  width:50%;
+  margin:20px;
+}
+
+/* 
+.experience{
+color:#552a0b;
+font-weight:300;
+} */
+
+
