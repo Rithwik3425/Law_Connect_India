@@ -3,14 +3,45 @@ import "./App.css";
 import HomePage from "./pages/HomePage";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
-import Lawyers from "./pages/Lawyers";
-import LawyerProfile from "./pages/LawyerProfile";
+import Lawyers from "./features/lawyers/Lawyers";
+import LawyerProfile from "./features/lawyers/LawyerProfile";
 import PageNotFound from "./pages/PageNotFound";
+import AboutUs_Section from "./components/AboutUs_Section";
+import Collab_Section from "./components/Collab_Section";
+import PageNav from "./components/PageNav";
+import ContactUs_Section from "./components/ContactUs_Section";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route
+        path="/aboutUs"
+        element={
+          <>
+            <PageNav />
+            <AboutUs_Section />
+          </>
+        }
+      />
+      <Route
+        path="/collabwithus"
+        element={
+          <>
+            <PageNav />
+            <Collab_Section />
+          </>
+        }
+      />
+      <Route
+        path="/contactUs"
+        element={
+          <>
+            <PageNav />
+            <ContactUs_Section />
+          </>
+        }
+      />
       <Route path="/signup" element={<SignUp />} />
       <Route path="/signin" element={<SignIn />} />
       <Route path="/lawyers" element={<Lawyers />} />
