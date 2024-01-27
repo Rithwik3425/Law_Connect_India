@@ -615,7 +615,7 @@
   width: 350px;
   color: #3d2819;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   transition: background-color 0.3s ease-in-out;
   overflow-y: hidden;
 }
@@ -906,4 +906,25 @@
 .sidebtn:hover {
   background: #40a4e7;
   color: white;
+}
+
+/* Filter secton */
+
+.filter-button {
+  color: white;
+  background-color: #75c6fc;
+  width: 90px;
+  border-style: none;
+  border-radius: 10px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  margin:10px;
+}
+
+.search-label{
+  color:#552a0b;
+  font-weight:600;
+  margin-right:10px;
+  margin-left:10px;
 }
