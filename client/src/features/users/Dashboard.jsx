@@ -7,7 +7,7 @@ import My_Profile_Section from "../../components/My_Profile_Section";
 function Dashboard() {
   const [page, setpage] = useState("meetings");
   return (
-    <div>
+    <div className="sidebar">
       <SideBar page={page} setpage={setpage} />
       <div className="rightpart">
         {page === "meetings" && <Meeting_Section />}
