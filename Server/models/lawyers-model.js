@@ -1,4 +1,6 @@
 const mongoose=require('mongoose');
+const slugify = require('slugify');
+
 const LawSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -10,10 +12,20 @@ const LawSchema = new mongoose.Schema({
         required: [true, 'A Office Location is Used'],
         trim: true,
     },
+    Location: {
+        type: String,
+        required: [true, 'A  Location is Used'],
+        trim: true,
+    },
     legalExperience: {
         type: Number,
         required: [true, 'Experience must be provided'],
     },
+    price:{
+        type:Number,
+        required:[true,'Price must be provided']
+    },
+   
     practiceArea: [String],
     languages: [String],
     rating: {
@@ -28,7 +40,15 @@ const LawSchema = new mongoose.Schema({
         type: String,
         trim: true,
         required: [true, 'A lawyer Should have a Description'],
-    }
+    },
+    slug: String,
+});
+
+
+
+LawSchema.pre('save', function (next) {
+  this.slug = slugify(this.name, { lower: true });
+  next();
 });
 
 const Lawyer = mongoose.model('Lawyers', LawSchema);
