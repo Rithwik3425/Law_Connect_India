@@ -22,7 +22,7 @@ function SearchLawyer() {
             setSearch(e.target.value);
           }}
         />
-        <label htmlFor="rating">Rating above: </label>
+        {/* <label htmlFor="rating">Rating above: </label>
         <select name="rating" id="rating" onChange={handleSelectRatings}>
           <option value=" "></option>
           <option value="3">3</option>
@@ -40,7 +40,7 @@ function SearchLawyer() {
           <option value="21-30">21-30</option>
           <option value="31-40">31-40</option>
           <option value="41-50">41-50</option>
-        </select>
+        </select> */}
         <button type="submit" onClick={handleFilter}>
           Filter
         </button>

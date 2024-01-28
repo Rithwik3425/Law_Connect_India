@@ -1,7 +1,10 @@
+import { useContext } from "react";
+import { UserContext } from "../contexts/UserContext";
+
 function My_Profile_Section() {
   return (
     <div>
-      <h1>My_Profile_Section</h1>
+      <h1>My Profile</h1>
     </div>
   );
 }

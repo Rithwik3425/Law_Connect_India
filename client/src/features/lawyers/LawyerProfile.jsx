@@ -26,7 +26,6 @@ function LawyerProfile() {
     }
     getLawyer();
   }, []);
-  // console.log(lawyerid);
   return (
     <div className="lawyer-about-con2">
       <div className="lawyer-profile-con">
@@ -38,11 +37,11 @@ function LawyerProfile() {
           <div className="lawyer-profile">
             <h3 className="lawyer-about-heading">{lawyer[1]}</h3>
             <div className="container d-flex flex-row justify-content-center lawyer-exp2">
-              <p>{lawyer[3]} Years of Experience</p>
+              <p>{lawyer[4]} Years of Experience</p>
               <div className="vertical-line"></div>
-              <p>{lawyer[6]} Rating</p>
+              <p>{lawyer[8]} Rating</p>
               <div className="vertical-line"></div>
-              <p>{lawyer[7]} Reviews</p>
+              <p>{lawyer[9]} Reviews</p>
             </div>
           </div>
         </div>
@@ -55,15 +54,15 @@ function LawyerProfile() {
           </div>
           <div className="lawyer-loc">
             <span className="lawyer-span">Description: </span>
-            {lawyer[8]}
+            {lawyer[10]}
           </div>
           <div className="lawyer-loc">
             <span className="lawyer-span">Area of expertise:</span>
-            <p>{lawyer[4]}</p>
+            <p>{lawyer[6]}</p>
           </div>
           <p className="lawyer-loc">
             <span className="lawyer-span">Fluent in </span>
-            {lawyer[5]}
+            {lawyer[7]}
           </p>
         </div>
       </div>

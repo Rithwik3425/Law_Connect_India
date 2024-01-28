@@ -31,7 +31,6 @@ function LawyerProvider({ children }) {
     e.preventDefault();
   }
   function handleLawyer(e) {
-    e.preventDefault();
     navigate(`/lawyers/${e.target.value}`);
   }
 
