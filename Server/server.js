@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 const dotenv=require('dotenv');
 const morgan=require('morgan');
 const userRouter =require( "./routes/user.route.js");
-//const  authRouter=require( "./routes/auth.route.js");
+const  meetingsRouter=require( "./routes/meetingsRoutes.js");
 const LawyerRouter=require('./routes/lawyer.route');
 
 dotenv.config({ path: "./config.env" });
@@ -31,7 +31,7 @@ if (process.env.NODE_ENV === 'development')
 }
 
 app.use("/api/user", userRouter);
-//app.use("/api/auth", authRouter);
+app.use("/api/meetings", meetingsRouter);
 app.use("/api/Lawyers", LawyerRouter);
 
 
