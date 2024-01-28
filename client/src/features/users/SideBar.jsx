@@ -21,13 +21,13 @@ function SideBar({ page, setpage }) {
           >
             Meetings
           </button>
-          <button
+          {/* <button
             value={"payment"}
             onClick={handlePageChange}
             className="sidebtn"
           >
             Payment
-          </button>
+          </button> */}
           <button
             value={"reviews"}
             onClick={handlePageChange}
