@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { LawyerContext } from "../../contexts/LawyerContext";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function SearchLawyer() {
   const {
@@ -23,6 +23,7 @@ function SearchLawyer() {
             setSearch(e.target.value);
           }}
         />
+        {/* <label htmlFor="rating">Rating above: </label>
         <label htmlFor="rating" className="search-label">Rating above: </label>
         <select name="rating" id="rating" onChange={handleSelectRatings}>
           <option value=" "></option>
@@ -41,7 +42,9 @@ function SearchLawyer() {
           <option value="21-30">21-30</option>
           <option value="31-40">31-40</option>
           <option value="41-50">41-50</option>
-        </select>
+        </select> */}
+        {/* <button type="submit" onClick={handleFilter}>
+        </select> */}
         <button className="filter-button" type="submit" onClick={handleFilter}>
           Filter
         </button>

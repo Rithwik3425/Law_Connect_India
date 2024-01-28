@@ -34,6 +34,8 @@ function LawyerList() {
                     <br />
                     Rating:
                     {law.rating}
+                    <br />
+                    {law.officeLocation}
                   </span>
                   <br />
                   <button

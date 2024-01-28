@@ -1,15 +1,11 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { UserContext } from "../contexts/UserContext";
 
 function SignIn() {
-  const [formdata, setFormdata] = useState({});
-  const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(false);
+  const { formdata, error, setError, loading, setLoading, handleChange } =
+    useContext(UserContext);
   const navigate = useNavigate();
-
-  function handleChange(e) {
-    setFormdata({ ...formdata, [e.target.id]: e.target.value });
-  }
 
   async function handleSubmit(e) {
     try {
