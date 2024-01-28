@@ -783,6 +783,40 @@
 
 /* Lawyer profile*/
 
+.book-con{
+  background-color:white;
+  margin-top:250px;
+  width:500px;
+  height:300px;
+  padding:10px;
+  padding-top:80px;
+  border-radius:15px;
+  text-align:center;
+}
+
+.book-head{
+  color:#552a0b;
+  font-weight:bold;
+  font-size:36px;
+}
+
+.book-span{
+  color:black;
+}
+
+.book-button{
+  border-style:none;
+  background-color:#75c6fc;
+  border-radius:15px;
+  color:white;
+  height:50px;
+  width:180px;
+  font-weight:bold;
+  text-align:center;
+  font-size:24px;
+
+}
+
 .lawyer-about-con2 {
   background-color: #dff2ff69;
   height: 100vh;
@@ -791,7 +825,7 @@
 
 .lawyer-profile-con {
   text-align: center;
-  width: 60%;
+  width: 80%;
   padding: 10px;
 }
 

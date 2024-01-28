@@ -34,6 +34,9 @@ function LawyerProfile() {
   }, []);
   return (
     <div className="lawyer-about-con2">
+    <div className="container">
+    <div className="d-flex flex-row justify-content-center">
+    
       <div className="lawyer-profile-con">
         <div className="lsp-con">
           <img
@@ -50,7 +53,6 @@ function LawyerProfile() {
               <p>{lawyer[9]} Reviews</p>
             </div>
           </div>
-        </div>
 
         <div className="lawyer-pg-con">
           <h4 className="lawyer-about-heading">About Lawyer</h4>
@@ -72,12 +74,20 @@ function LawyerProfile() {
           </p>
         </div>
       </div>
-      <div>
-        <h1>
-          Book 1 on 1 service at <br /> {lawyer[5]}
-        </h1>
-        <button onClick={handleClickBook}>Book Now</button>
       </div>
+
+
+    
+      <div className="book-con">
+        <h1 className="book-head">
+          Book 1 on 1 service at, <br /><span className="book-span">{lawyer[5]}/-</span>
+        </h1>
+        <button onClick={handleClickBook} className="book-button">Book Now</button>
+      </div>
+
+
+    </div>
+    </div>
     </div>
   );
 }
