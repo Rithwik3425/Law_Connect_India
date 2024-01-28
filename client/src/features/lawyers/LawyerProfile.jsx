@@ -49,7 +49,7 @@ function LawyerProfile() {
         <div className="lawyer-pg-con">
           <h4 className="lawyer-about-heading">About Lawyer</h4>
           <div className="lawyer-loc">
-            <span className="lawyer-span">Location: </span>
+            <span className="lawyer-span">Office Location: </span>
             {lawyer[2]}
           </div>
           <div className="lawyer-loc">

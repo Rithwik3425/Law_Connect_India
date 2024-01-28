@@ -622,7 +622,7 @@
 
 .lawyer-list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 60px;
   padding: 25px;
 }
@@ -906,4 +906,25 @@
 .sidebtn:hover {
   background: #40a4e7;
   color: white;
+}
+
+/* Filter secton */
+
+.filter-button {
+  color: white;
+  background-color: #75c6fc;
+  width: 90px;
+  border-style: none;
+  border-radius: 10px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  margin:10px;
+}
+
+.search-label{
+  color:#552a0b;
+  font-weight:600;
+  margin-right:10px;
+  margin-left:10px;
 }
