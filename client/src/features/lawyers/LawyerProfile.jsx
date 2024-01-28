@@ -1,13 +1,19 @@
 import { useState, useEffect, useContext } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { LawyerContext } from "../../contexts/LawyerContext";
 
 function LawyerProfile() {
   const { lawyerid } = useParams();
+  const navigate = useNavigate();
   const { lawyer, setLawyer } = useContext(LawyerContext);
   let lawyerdata = [];
   let lawyerArray = [];
+
+  function handleClickBook(e) {
+    e.preventDefault();
+    navigate("/user/dashboard");
+  }
 
   useEffect(function () {
     async function getLawyer() {
@@ -65,6 +71,12 @@ function LawyerProfile() {
             {lawyer[7]}
           </p>
         </div>
+      </div>
+      <div>
+        <h1>
+          Book 1 on 1 service at <br /> {lawyer[5]}
+        </h1>
+        <button onClick={handleClickBook}>Book Now</button>
       </div>
     </div>
   );

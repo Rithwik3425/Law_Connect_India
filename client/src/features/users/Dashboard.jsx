@@ -14,7 +14,6 @@ function Dashboard() {
         headers: { "x-auth-token": localStorage.getItem("token") },
       });
       const data = await res.json();
-      console.log(data);
     }
 
     getUser();
