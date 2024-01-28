@@ -1080,3 +1080,62 @@
   font-weight:300;
 }
 
+/* Payment container */
+
+.payment-con{
+  background-color: #dff2ff69;
+  padding:30px;
+  margin-top:50px;
+  border-radius:15px;
+}
+
+.payment-heading{
+  color:#552a0b;
+  font-weight:bold;
+  text-align:center;
+  margin:10px;
+  font-size:36px;
+  margin-top:20px;
+}
+
+.input-el-pay{
+  width:80%;
+  border-radius:10px;
+  border: 1px solid black;
+  margin-right:10px;
+  margin-bottom:40px;
+  padding:10px;
+}
+
+.pay-button{
+  border-style:none;
+  background-color:#75c6fc;
+  border-radius:15px;
+  color:white;
+  height:50px;
+  width:180px;
+  font-weight:bold;
+  text-align:center;
+  font-size:24px;
+  margin:30px;
+
+}
+
+.input-el-pay2{
+  width:30%;
+  border-radius:10px;
+  border: 1px solid black;
+  margin-right:10px;
+  padding:10px;
+}
+
+.input-el-pay3{
+  width:20%;
+  border-radius:10px;
+  border: 1px solid black;
+  margin-right:10px;
+  padding:10px;
+}
+
+
+
