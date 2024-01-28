@@ -12,7 +12,7 @@ function LawyerProfile() {
 
   function handleClickBook(e) {
     e.preventDefault();
-    navigate("/user/dashboard");
+    navigate("/user/payment");
   }
 
   useEffect(function () {
