@@ -7,19 +7,23 @@ function Meeting_Section() {
     setpage(e.target.value);
   }
   return (
-    <div>
-      <div>Meetings</div>
+    <div className="meetings-con">
+      <div className="meetings-heading">Meetings</div>
       <div>
-        <button value={"all"} onClick={handleSubPage}>
+        <button value={"all"} onClick={handleSubPage} className="meetings-items">
           All
         </button>
-        <button value={"upcoming"} onClick={handleSubPage}>
+        <button value={"upcoming"} onClick={handleSubPage} className="meetings-items">
           Upcoming
         </button>
-        <button value={"completed"} onClick={handleSubPage}>
+        <button value={"completed"} onClick={handleSubPage} className="meetings-items">
           Completed
         </button>
         <div>
+
+          <hr className="horizontal-line"></hr>
+
+
           {page === "all" && <div>All Meetings</div>}
           {page === "upcoming" && <div>Upcoming Meetings</div>}
           {page === "completed" && <div>Completed Meetings</div>}

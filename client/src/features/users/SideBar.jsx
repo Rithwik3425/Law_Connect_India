@@ -9,8 +9,6 @@ function SideBar({ page, setpage }) {
     <div className="sidebar2">
       <div>
         <div className="user-logo">
-          {/* <img src="./LawConnectIndia.jpeg" className="user-logo"
-        /> */}
         </div>
 
         <div className="btncon">
