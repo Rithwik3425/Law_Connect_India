@@ -14,6 +14,7 @@ import Dashboard from "./features/users/Dashboard";
 import LawyerFilter from "./features/lawyers/LawyerFilter";
 import { LawyerProvider } from "./contexts/LawyerContext";
 import { UserProvider } from "./contexts/UserContext";
+import Payment_Section from "./components/Payment_Section";
 
 function App() {
   return (
@@ -54,6 +55,7 @@ function App() {
           <Route path="/lawyers/:lawyerid" element={<LawyerProfile />} />
           <Route path="/lawyers/filter" element={<LawyerFilter />} />
           <Route path="/user/dashboard" element={<Dashboard />} />
+          <Route path="/user/payment" element={<Payment_Section />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </LawyerProvider>
